@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Downloaded reports (output) — 舊格式，個人下載用
+*_NotebookLM_Pack/
+*_NotebookLM上傳文件/
+*_ESG_Reports/
+
+# PyInstaller
+*.spec
+*.exe
+
+# PDF — 只忽略根目錄的 PDF，MOPS_批次下載/ 裡的 PDF 要追蹤
+/*.pdf
+
+# 批次下載 — 排除 log 和進度檔
+batch_progress.json
+MOPS_批次下載/**/*.log
+
+# 開發工具
+.claude/
+
+# Test/debug artifacts
+test_*/
+debug*
+*.png
