@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+    <!-- Title and Meta
+    ================================================== -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>花仙子企業股份有限公司</title>
+    <meta name="author" content="Design By Minmax 網頁設計"/>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+	<meta name="facebook-domain-verification" content="i0aj4uhbvnmokgggo9eut1h9due6up" />
+
+    <!-- Facebook Open Graph Meta
+    ================================================== -->
+    <meta property="og:title" content="花仙子企業股份有限公司"/>
+    <meta property="og:url" content="https://www.farcent.com.tw/responsibility01"/>
+    <meta property="og:site_name" content="花仙子企業股份有限公司"/>
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="/files/products/list/brand01-logo.png"/>
+    <meta name="csrf-token" content="eJUAJW2nLsHlxTokGikNObrznPhsY5MOHdxkj0NN" />
+    <link rel="icon" type="image/x-icon" href="/static/zh-Hant/styles/images/static/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/static/zh-Hant/styles/style.css"/>
+    <link rel="stylesheet" type="text/css" href="/static/zh-Hant/styles/modify.css"/>
+
+    <!--[if lt IE 9]>
+    <script src="/static/zh-Hant/scripts/default/html5shiv.min.js"></script>
+    <script src="/static/zh-Hant/scripts/default/respond.min.js"></script>
+    <![endif]-->
+    <script src="/static/zh-Hant/scripts/default/modernizr.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-62566633-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-62566633-5');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-228591205-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-228591205-5');
+</script>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HB8VNYWWJY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HB8VNYWWJY');
+</script>
+</head>
+        <body>
+    
+        <div class="wp" id="responsibility" data-page="responsibility01">
+            <!--<div class="preloader">
+                <div class="preloader-inner">
+                    <figure>
+                        <div class="block"></div>
+                        <img src="/styles/images/static/logo-white.png" alt="" />
+                        <figcaption>Loading</figcaption>
+                    </figure>
+                </div>
+            </div>-->
+            <header id="header">
+    <div class="overlay"></div>
+    <nav class="navbar wow fadeInDown">
+        <div class="logo">
+            <a href="/">
+                <img src="/files/products/list/brand01-logo.png" alt="" />
+            </a>
+        </div><!-- //logo -->
+        <div class="menu">
+            <div class="menu-inner">
+                <div class="menu-inner-top">
+                    <div class="search">
+                        <form action="/products-search" method="get">
+                            <div class="search-bar">
+                                <input type="text" name="keyword" placeholder="請輸入產品關鍵字" />
+                                <button type="submit"><i class="icon-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                    <ul class="mainlinks noneStyle">
+                        <li class="lang">
+                            <a href="/"><span>繁體中文</span></a>
+                            <ul class="noneStyle">
+                                                                                                            <li class="current" ><a href="javascript:;">繁體中文</a></li>
+                                                                            <li  ><a href="/en/">English</a></li>
+                                                                                                </ul>
+                        </li>
+
+                                                <li>
+                            <a href="/news">最新消息</a>
+                        </li>
+                                                <li>
+                            <a href="javascript:;" >關於花仙子</a>
+                                                            <ul class="noneStyle">
+                                                                            <li>
+                                            <a href="/about01"  target="_self">
+                                                <div class="pic submenu-pic">
+                                                    <img src="/files/about/dropdown/dropdown01.jpg" alt="" />
+                                                </div>
+                                                <div class="submenu-info">
+                                                    <p class="title">使命與核心價值</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/about02"  target="_self">
+                                                <div class="pic submenu-pic">
+                                                    <img src="/files/dropdown/dropdown02.jpg" alt="" />
+                                                </div>
+                                                <div class="submenu-info">
+                                                    <p class="title">經營團隊</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/about03"  target="_self">
+                                                <div class="pic submenu-pic">
+                                                    <img src="/files/about/dropdown/dropdown03.jpg" alt="" />
+                                                </div>
+                                                <div class="submenu-info">
+                                                    <p class="title">集團歷史</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/about04"  target="_self">
+                                                <div class="pic submenu-pic">
+                                                    <img src="/files/contact/dropdown/dropdown01.jpg" alt="" />
+                                                </div>
+                                                <div class="submenu-info">
+                                                    <p class="title">全球經營版圖</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                                                    </ul>
+                                                    </li>
+                        <li class="brands">
+                            <a href="javascript:;">品牌產品</a>
+                                                            <ul class="noneStyle">
+                                                                            <li class="product-all" >
+                                            <div class="category-title">
+                                                <a href="javascript:;" data-id="">所有品牌</a>
+                                            </div>
+                                            <div class="category-content">
+                                                                                                                                                    <div class="category-slider">
+                                                        <ul class="noneStyle">
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/0eayN63Jp1YYcNU7" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/01-Farcent/Tableconceptart_Farcent.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">花仙子</span>
+                                                                                <span class="subtitle">處處留香好心情</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/Db7YN29Jp4Yh7NT5" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/02-OdorRemoval/Tableconceptart_OdorRemoval-FF4827GXF.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">去味大師</span>
+                                                                                <span class="subtitle">去味 香味 品味</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/6FCYn6BJp2zJfuw3" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/03-LPF/Tableconceptart_LPF.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">Les Parfums de Farcent法頌</span>
+                                                                                <span class="subtitle">輕奢 極寵 活在香水瓶裡(香氛)</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/80dYn04qhcmR8ZS1" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/04-LPFbody/Tableconceptart_LPFbody_03.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">Les Parfums de Farcent法頌</span>
+                                                                                <span class="subtitle">香水奢養 瑩透光肌(個人護理)</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/3AeYnc3JPeHG8Rz3" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/05-teatree/Tableconceptart_-Teatreeground_c.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">茶樹莊園</span>
+                                                                                <span class="subtitle">土壤到滴萃 一座莊園的純淨力</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/A66ynC1JpbZN6Tm6" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/demo/products/product_list/a-16.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">克潮靈</span>
+                                                                                <span class="subtitle">克服潮濕真靈</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/E70Yn48Jp9ZP7mi6" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/07-Dusting/Tableconceptart_Dusting-d.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">驅塵氏</span>
+                                                                                <span class="subtitle">輕鬆做 優雅過</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="http://www.360mop.com/" target="_bland">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/08-Supamop/Tableconceptart_Supamop-ee.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">好神拖</span>
+                                                                                <span class="subtitle">居家清潔神標準</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/e18yn4Bjp5HJ6xi1" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/09-Bathroom/Tableconceptart_Bathroom-c.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">潔霜</span>
+                                                                                <span class="subtitle">強效、速效，清潔霜倍有效</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/AA4YN6dJp2hXaysD" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/demo/products/dropdown/a-02.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">小通</span>
+                                                                                <span class="subtitle">使用小通 迅速就通</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/890yNe1jP6hJ7nr1" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/demo/products/product_list/a-03.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">藍藍香</span>
+                                                                                <span class="subtitle">藍藍香 不一樣</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/273Zt7CRX6zWEZj6" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/13-AntiMosquito/Tableconceptart_AntiMosquito-03.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">小蚊清</span>
+                                                                                <span class="subtitle">植感防護 有效驅蚊</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </div>
+                                        </li>
+                                                                            <li  >
+                                            <div class="category-title">
+                                                <a href="javascript:;" data-id="932YnE1wYFYW9gzF">香氛去味</a>
+                                            </div>
+                                            <div class="category-content">
+                                                                                                    <div class="category-banner">
+                                                        <div class="pic pic-fill imgFill">
+                                                            <img src="/files/products/dropdown/category01.jpg" alt="" />
+                                                        </div>
+                                                        <div class="title" data-en="Fragrance">香氛去味</div>
+                                                    </div>
+                                                                                                                                                    <div class="category-slider">
+                                                        <ul class="noneStyle">
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/0eayN63Jp1YYcNU7" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/01-Farcent/Tableconceptart_Farcent.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">花仙子</span>
+                                                                                <span class="subtitle">處處留香好心情</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/Db7YN29Jp4Yh7NT5" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/02-OdorRemoval/Tableconceptart_OdorRemoval-FF4827GXF.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">去味大師</span>
+                                                                                <span class="subtitle">去味 香味 品味</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/6FCYn6BJp2zJfuw3" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/03-LPF/Tableconceptart_LPF.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">Les Parfums de Farcent法頌</span>
+                                                                                <span class="subtitle">輕奢 極寵 活在香水瓶裡(香氛)</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </div>
+                                        </li>
+                                                                            <li  >
+                                            <div class="category-title">
+                                                <a href="javascript:;" data-id="B92yP40WU8Zx8iH3">個人護理</a>
+                                            </div>
+                                            <div class="category-content">
+                                                                                                    <div class="category-banner">
+                                                        <div class="pic pic-fill imgFill">
+                                                            <img src="/files/products/dropdown/2.jpg" alt="" />
+                                                        </div>
+                                                        <div class="title" data-en="Fragrance">個人護理</div>
+                                                    </div>
+                                                                                                                                                    <div class="category-slider">
+                                                        <ul class="noneStyle">
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/80dYn04qhcmR8ZS1" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/04-LPFbody/Tableconceptart_LPFbody_03.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">Les Parfums de Farcent法頌</span>
+                                                                                <span class="subtitle">香水奢養 瑩透光肌(個人護理)</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </div>
+                                        </li>
+                                                                            <li  >
+                                            <div class="category-title">
+                                                <a href="javascript:;" data-id="645YN4DwybYm3JmB">除濕防霉</a>
+                                            </div>
+                                            <div class="category-content">
+                                                                                                    <div class="category-banner">
+                                                        <div class="pic pic-fill imgFill">
+                                                            <img src="/files/products/dropdown/category02.jpg" alt="" />
+                                                        </div>
+                                                        <div class="title" data-en="Fragrance">除濕防霉</div>
+                                                    </div>
+                                                                                                                                                    <div class="category-slider">
+                                                        <ul class="noneStyle">
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/A66ynC1JpbZN6Tm6" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/demo/products/product_list/a-16.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">克潮靈</span>
+                                                                                <span class="subtitle">克服潮濕真靈</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </div>
+                                        </li>
+                                                                            <li  >
+                                            <div class="category-title">
+                                                <a href="javascript:;" data-id="258yn4FWY7yn3Uud">居家清潔洗劑</a>
+                                            </div>
+                                            <div class="category-content">
+                                                                                                    <div class="category-banner">
+                                                        <div class="pic pic-fill imgFill">
+                                                            <img src="/files/products/dropdown/1.jpg" alt="" />
+                                                        </div>
+                                                        <div class="title" data-en="Fragrance">居家清潔洗劑</div>
+                                                    </div>
+                                                                                                                                                    <div class="category-slider">
+                                                        <ul class="noneStyle">
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/e18yn4Bjp5HJ6xi1" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/09-Bathroom/Tableconceptart_Bathroom-c.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">潔霜</span>
+                                                                                <span class="subtitle">強效、速效，清潔霜倍有效</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/AA4YN6dJp2hXaysD" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/demo/products/dropdown/a-02.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">小通</span>
+                                                                                <span class="subtitle">使用小通 迅速就通</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/890yNe1jP6hJ7nr1" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/demo/products/product_list/a-03.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">藍藍香</span>
+                                                                                <span class="subtitle">藍藍香 不一樣</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </div>
+                                        </li>
+                                                                            <li  >
+                                            <div class="category-title">
+                                                <a href="javascript:;" data-id="2D3Yn3DWYeYnbRhd">天然清潔洗劑</a>
+                                            </div>
+                                            <div class="category-content">
+                                                                                                    <div class="category-banner">
+                                                        <div class="pic pic-fill imgFill">
+                                                            <img src="/files/products/dropdown/category06.jpg" alt="" />
+                                                        </div>
+                                                        <div class="title" data-en="Fragrance">天然清潔洗劑</div>
+                                                    </div>
+                                                                                                                                                    <div class="category-slider">
+                                                        <ul class="noneStyle">
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/3AeYnc3JPeHG8Rz3" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/05-teatree/Tableconceptart_-Teatreeground_c.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">茶樹莊園</span>
+                                                                                <span class="subtitle">土壤到滴萃 一座莊園的純淨力</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </div>
+                                        </li>
+                                                                            <li  >
+                                            <div class="category-title">
+                                                <a href="javascript:;" data-id="becyN81wy2YSFxs8">居家打掃工具</a>
+                                            </div>
+                                            <div class="category-content">
+                                                                                                    <div class="category-banner">
+                                                        <div class="pic pic-fill imgFill">
+                                                            <img src="/files/Brand/07-Dusting/Table_Dusting.png" alt="" />
+                                                        </div>
+                                                        <div class="title" data-en="Fragrance">居家打掃工具</div>
+                                                    </div>
+                                                                                                                                                    <div class="category-slider">
+                                                        <ul class="noneStyle">
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/E70Yn48Jp9ZP7mi6" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/07-Dusting/Tableconceptart_Dusting-d.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">驅塵氏</span>
+                                                                                <span class="subtitle">輕鬆做 優雅過</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="http://www.360mop.com/" target="_bland">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/08-Supamop/Tableconceptart_Supamop-ee.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">好神拖</span>
+                                                                                <span class="subtitle">居家清潔神標準</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </div>
+                                        </li>
+                                                                            <li  >
+                                            <div class="category-title">
+                                                <a href="javascript:;" data-id="9caYn60wY4YM7Zp2">防蚊驅蟲</a>
+                                            </div>
+                                            <div class="category-content">
+                                                                                                    <div class="category-banner">
+                                                        <div class="pic pic-fill imgFill">
+                                                            <img src="/files/products/dropdown/category03.jpg" alt="" />
+                                                        </div>
+                                                        <div class="title" data-en="Fragrance">防蚊驅蟲</div>
+                                                    </div>
+                                                                                                                                                    <div class="category-slider">
+                                                        <ul class="noneStyle">
+                                                                                                                            <li>
+                                                                    <a href="https://www.farcent.com.tw/products-brand/273Zt7CRX6zWEZj6" target="_self">
+                                                                        <div class="pic brand-pic">
+                                                                            <img src="/files/Brand/13-AntiMosquito/Tableconceptart_AntiMosquito-03.png" alt="" />
+                                                                        </div>
+                                                                        <div class="brand-info">
+                                                                            <div class="title-box">
+                                                                                <span class="title">小蚊清</span>
+                                                                                <span class="subtitle">植感防護 有效驅蚊</span>
+                                                                            </div>
+                                                                            <div class="text-box"></div>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </div>
+                                        </li>
+                                                                    </ul>
+                                                    </li>
+                        <li>
+                            <a href="javascript:;">ESG永續發展</a>
+                                                            <ul class="noneStyle">
+                                                                            <li>
+                                            <a href="/stakeholders" target="_self">
+                                                <div class="pic submenu-pic">
+                                                    <img src="/files/responsibility/dropdown/dropdown02.jpg" alt="" />
+                                                </div>
+                                                <div class="submenu-info">
+                                                    <p class="title">利害關係人互動與經營</p>
+                                                    <p class="text">透過各種型態及管道與利害關係人建立友善溝通平台</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/responsibility01" target="_self">
+                                                <div class="pic submenu-pic">
+                                                    <img src="/files/responsibility/dropdown/dropdown01.jpg" alt="" />
+                                                </div>
+                                                <div class="submenu-info">
+                                                    <p class="title">ESG永續發展</p>
+                                                    <p class="text">重視企業道德、遵守法治，並積極參與社會公益，追求永續發展</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                                                    </ul>
+                                                    </li>
+                                                <li>
+                            <a href="javascript:;">投資人關係</a>
+                                                            <ul class="noneStyle">
+                                                                            <li>
+                                            <a href="/investors01" target="_self">
+                                                <div class="pic submenu-pic">
+                                                    <img src="/files/investors/dropdown/dropdown01.jpg" alt="" />
+                                                </div>
+                                                <div class="submenu-info">
+                                                    <p class="title">重大訊息</p>
+                                                    <p class="text">股東會相關重要事項與發佈</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/investors02" target="_self">
+                                                <div class="pic submenu-pic">
+                                                    <img src="/files/investors/dropdown/dropdown02.jpg" alt="" />
+                                                </div>
+                                                <div class="submenu-info">
+                                                    <p class="title">公司治理</p>
+                                                    <p class="text">提升資訊透明度為遵循原則，逐步推動各項制度及辦法</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/investors03" target="_self">
+                                                <div class="pic submenu-pic">
+                                                    <img src="/files/investors/dropdown/dropdown03.jpg" alt="" />
+                                                </div>
+                                                <div class="submenu-info">
+                                                    <p class="title">財務資訊</p>
+                                                    <p class="text">提供年報、每季財報、法說會資訊</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/investors05" target="_self">
+                                                <div class="pic submenu-pic">
+                                                    <img src="/files/investors/dropdown/dropdown05.jpg" alt="" />
+                                                </div>
+                                                <div class="submenu-info">
+                                                    <p class="title">股東服務</p>
+                                                    <p class="text">查詢即時股價與歷年股利資訊</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                                                    </ul>
+                                                    </li>
+                                                <li>
+                            <a href="javascript:;">聯絡我們</a>
+                                                            <ul class="noneStyle">
+                                                                            <li>
+                                            <a href="/contact02"  target="_self">
+                                                <div class="pic submenu-pic">
+                                                    <img src="/files/contact/dropdown/dropdown02.jpg" alt="" />
+                                                </div>
+                                                <div class="submenu-info">
+                                                    <p class="title">常見問題</p>
+                                                    <p class="text">協助解決您對產品的疑問</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/contact03"  target="_self">
+                                                <div class="pic submenu-pic">
+                                                    <img src="/files/contact/dropdown/dropdown03.jpg" alt="" />
+                                                </div>
+                                                <div class="submenu-info">
+                                                    <p class="title">代工服務</p>
+                                                    <p class="text">我們提供完整與品質保證的代工服務(ODM/OEM)</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/contact04"  target="_self">
+                                                <div class="pic submenu-pic">
+                                                    <img src="/files/contact/dropdown/dropdown04.jpg" alt="" />
+                                                </div>
+                                                <div class="submenu-info">
+                                                    <p class="title">海外代理</p>
+                                                    <p class="text">不斷創新突破，致力提供消費者更舒適、方便的居家生活</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                                                            <li>
+                                            <a href="/contact05"  target="_self">
+                                                <div class="pic submenu-pic">
+                                                    <img src="/files/contact/dropdown/dropdown05.jpg" alt="" />
+                                                </div>
+                                                <div class="submenu-info">
+                                                    <p class="title">人才招募</p>
+                                                    <p class="text">人，是花仙子企業最珍視的重要資產</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                                                    </ul>
+                                                    </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-foot">
+                <div class="menu-foot-download">
+                    <ul class="noneStyle">
+                        <li>
+                            <a href="https://play.google.com/store/apps/details?id=com.farcent" target="_blank">
+                                <div class="icon"><i class="icon-google-play"></i></div>
+                                <div class="text">
+                                    <span class="en">Google Play</span>
+                                    <span class="zh">立即下載購物APP</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank">
+                                <div class="icon"><i class="icon-apple"></i></div>
+                                <div class="text">
+                                    <span class="en">App Store</span>
+                                    <span class="zh">立即下載購物APP</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-foot-info">
+                    <div class="container">
+                        <div class="info">
+                            <div class="info-logo">
+                                <img src="/static/styles/images/static/logo-white.svg" alt="" />
+                            </div>
+                            <ul class="info-tel noneStyle">
+<li class="t-large"><a href="tel:+886-2-2592-2860">+886-2-2592-2860</a></li>
+<li style="text-align: left;">公司地址：台北市大同區承德路三段230號13F</li>
+<li style="text-align: left;">公司傳真：<a href="tel:+886-2-2594-4800">+886-2-2594-4800</a></li>
+<li style="text-align: left;">客服電話：<a href="tel:0800-021-771">0800-021-771</a> (花仙子)</li>
+<li style="text-align: left;">客服電話：<a href="tel:0800-021-771">0800-865-999</a> (好神拖)</li>
+<!--<li style="text-align: left;">客服電話：<a href="tel:0800-013-482">0800-013-482</a> (康寧)</li>--></ul>
+                            <ul class="info-social noneStyle">
+                                <li><a href="https://www.facebook.com/farcenttools/" target="_blank"><i class="icon-facebook"></i></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCRbGFS99tSfqpjG0k_FMwsQ/videos" target="_blank"><i class="icon-youtube-play"></i></a></li>
+                                                                <li><a href="https://www.instagram.com/farcent_lpf/" target="_blank"><i class="icon-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="copyright">
+                            <p>Copyright © Farcent Enterprise Co., Ltd All Right Reserved. Designed by <a href="https://ecreative.tw/" target="_blank">E-creative</a></p>
+                            <ul class="noneStyle">
+                                <li><a href="/sitemap">網站地圖</a></li>
+                                <li><a href="/privacy">隱私權政策</a></li>
+                                <li><a href="/terms">網站使用條款</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- //menu -->
+        <div class="menu-track">
+            <div class="menu-track-inner"></div>
+        </div>
+        <div class="buttons">
+            <ul class="noneStyle">
+                <li>
+                    <div class="btn-style lang-toggle">
+                        <button type="button"><i class="icon-earth"></i><span class="txt">Language</span></button>
+                    </div>
+                </li>
+                                <li>
+                    <div class="btn-style cart-button">
+                        <a href="http://shop.farcent.com.tw/" target="_blank"><i class="icon-cart"></i>官方購物</a>
+                    </div>
+                </li>
+                                <li>
+                    <div class="btn-style search-toggle">
+                        <button type="button"><i class="icon-search"></i><span class="txt">搜尋產品</span></button>
+                    </div>
+                </li>
+                <li>
+                    <div class="btn-style menu-toggle">
+                        <div class="menu-toggle-inner">
+                            <span></span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div><!-- //buttons -->
+    </nav><!-- //nav -->
+    <div class="lang-box">
+        <div class="container full">
+            <ul class="noneStyle">
+                                                        <li class="current" ><a href="javascript:;">繁體中文</a></li>
+                                                        <li  ><a href="/en">English</a></li>
+                            </ul>
+            <button type="button" class="btn-style btn-close"><i class="icon-close"></i></button>
+        </div>
+    </div>
+    <div class="search-box">
+        <div class="container full">
+            <form action="/products-search">
+                <div class="search-bar">
+                    <button type="submit" class="btn-style btn-search"><i class="icon-search"></i></button>
+                    <input type="text" name="keyword" placeholder="請輸入產品關鍵字" />
+                    <button type="button" class="btn-style btn-close"><i class="icon-close"></i></button>
+                </div>
+            </form>
+        </div>
+    </div><!-- //search-box -->
+</header>
+            <!-- main ======================================================================================= -->
+                        
+            <!-- main ======================================================================================= -->
+            <main id="main">
+                <div class="page-head">
+                    <div class="page-head-banner wow fadeIn">
+                        <div class="banner-pic imgFill">
+                            <img src="/files/responsibility/responsibility/banner.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="page-head-main">
+                        <div class="page-head-bread container extra-large wow fadeInUp">
+                            <ul class="noneStyle">
+                                <li><a href="/">首頁</a></li>
+                                <li><a href="/responsibility01">ESG永續發展</a></li>
+                                <li><a href="/responsibility01">ESG永續發展</a></li>
+                                <li><a href="/responsibility01">推行重點</a></li>
+                            </ul>
+                        </div>
+                        <div class="page-head-title container wow fadeInUp">
+                            <p class="en">ESG</p>
+                            <h1 class="zh">ESG永續發展</h1>
+                        </div>
+                        <div class="page-head-nav container wow fadeInUp">
+                            <div class="nav-menu">
+                                <ul class="noneStyle">
+                                    <li class="current"><a href="/responsibility01">推行重點</a></li>
+                                    <li><a href="/responsibility02">推行小組</a></li>
+                                    <li><a href="/happiness11" target="_blank">幸福1+1公益計畫</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-body">
+                    <div class="responsibility-section intro">
+<div class="section-inner container extra-large">
+<div class="pic wow fadeInUp"><picture> <source srcset="/static/styles/images/static/responsibility/responsibility/intro-pic-mobile.jpg" media="(max-width: 991px)" /> <img src="/static/styles/images/static/responsibility/responsibility/intro-pic.jpg" alt="" /> </picture></div>
+<div class="desc wow fadeInUp">
+<div class="desc-head styled-head">
+<p class="sub">花仙子自 1983 年創立</p>
+<h2 class="title">至今一直致力於品牌發展，並以品牌國際化作為企業的願景與目標</h2>
+</div>
+<div class="desc-content editor-style">
+<p>如今隨著企業經營規模的逐漸擴展，企業版圖已延伸至中國及與東南亞，員工人數與合作夥伴也不斷的增加，我們瞭解花仙子對於產業與社會的連結及影響日益加深，因此除了追求良好的營運績效，更重視企業道德、遵守法治，並積極參與社會公益，追求永續發展。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="responsibility-section goals">
+<div class="goal-item">
+<div class="goal-item-inner container extra-large">
+<div class="pic wow fadeInUp"><img src="/static/styles/images/static/responsibility/responsibility/goal01.jpg" alt="" /></div>
+<div class="desc wow fadeInUp" data-wow-delay=".25s">
+<div class="desc-head">
+<h3 class="title">高營運績效，落實公司治理</h3>
+</div>
+<div class="desc-content editor-style">
+<p>「提昇生活品質，創造便利生活」為花仙子的經營宗旨，花仙子從成立以來，一直專注於核心本業的發展，並以各種創新的營運模式持續追求成長，每年維持良好的營運績效。而花仙子也將更落實公司治理的精神，不斷強化董事會的職能，並提升財務透明度、完善資訊揭露、落實內稽內控。</p>
+</div>
+<div class="desc-subjects">
+<ul class="noneStyle">
+<li>
+<div class="icon"><img src="/static/styles/images/static/responsibility/responsibility/icon01.svg" alt="" /></div>
+<p>追求成長</p>
+</li>
+<li>
+<div class="icon"><img src="/static/styles/images/static/responsibility/responsibility/icon02.svg" alt="" /></div>
+<p>落實治理精神</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="goal-item alt">
+<div class="goal-item-inner container extra-large">
+<div class="pic wow fadeInUp"><img src="/static/styles/images/static/responsibility/responsibility/goal02.jpg" alt="" /></div>
+<div class="desc wow fadeInUp" data-wow-delay=".25s">
+<div class="desc-head">
+<h3 class="title">盡己之力， 善盡社會公民責任</h3>
+</div>
+<div class="desc-content editor-style">
+<p>花仙子企業將對員工的關愛，延伸到社會的關懷，自2014年底成立花仙子教育基金會，以「扶助弱勢教育」、「推動環境保育及生態永續活動」為宗旨。</p>
+<p>關懷弱勢教育方面，以公司鄰近的社區為起點，開辦「弱勢兒少課後班」、「假日親子共學」、「EQ品格教育推廣」，乃至於偏鄉學校的教學資源挹注，逐步構築花仙子的社會關懷地圖，透過教育的方式，幫助經濟條件或學習環境不利的弱勢兒少，獲得翻轉人生的契機。環境教育方面，今年與「台灣環境資訊協會」合作，以海洋教育為主題，入校辦理環境教育講座，讓環保的觀念從小紮根；同時辦理淨灘、海洋種子講師培訓的活動，廣邀社會大眾以實際行動來關注環境的議題，讓大朋友、小朋友共同為環境盡一份心力。教育乃百年大計，百年樹人亦是一步一腳印的經營歷程。未來期以企業全員參與的形式，用愛心投入公益、回饋社會，以「幸福企業」為目標，帶動更多人關懷社會，匯聚更多大眾的力量，共同創造社會的幸福氛圍，善盡企業社會責任。</p>
+</div>
+<div class="desc-subjects">
+<ul class="noneStyle">
+<li>
+<div class="icon"><img src="/static/styles/images/static/responsibility/responsibility/icon03.svg" alt="" /></div>
+<p>關懷弱勢教育</p>
+</li>
+<li>
+<div class="icon"><img src="/static/styles/images/static/responsibility/responsibility/icon04.svg" alt="" /></div>
+<p>推動環保</p>
+</li>
+<li><a class="btn-style rounded fill-lightBlue" href="http://www.farcent.org.tw/index.php" target="_blank" rel="noopener">花仙子基金會網站</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="goal-item">
+<div class="goal-item-inner container extra-large">
+<div class="pic wow fadeInUp"><img src="/static/styles/images/static/responsibility/responsibility/goal03.jpg" alt="" /></div>
+<div class="desc wow fadeInUp" data-wow-delay=".25s">
+<div class="desc-head">
+<h3 class="title">愛護地球，關懷下一代，永續發展</h3>
+</div>
+<div class="desc-content editor-style">
+<p>花仙子為日用化學品公司，在追求營運績效的同時，我們也期許能在永續發展的議題上貢獻自己的 心力。2012 年在中國太倉新建之廠房為了提供給員工適合及安全的工作環境並兼顧節能與環保的要求，花仙子積極推展廠房綠化、屋頂使用隔熱材質、安裝水簾系統、更換節能設備、以天然氣代替柴油的相關設備，更朝向建置零排放之廢水處理系統等。花仙子未來將投入更多資源研發對環境友善的產品，產品配方採取 95%以上可生物分解的原料到其他使用環保材質及有機材質，以及包材減量、使用環保包材等，以達到節能減碳及減少石化廢棄物的產生。</p>
+<p><span style="font-family: '微軟正黑體',sans-serif;">花仙子集團2024 年向工業局申請低碳及智慧化升級方案，並裝設智慧電錶進行設備耗電監控，同時逐步汰換射出機老舊馬達，2024 年用電量750,173 度，相較基準年(2022 年)，節能達12.7%，共投資金額50萬元。</span></p>
+</div>
+<div class="desc-subjects">
+<ul class="noneStyle">
+<li>
+<div class="icon"><img src="/static/styles/images/static/responsibility/responsibility/icon05.svg" alt="" /></div>
+<p>廠房綠化</p>
+</li>
+<li>
+<div class="icon"><img src="/static/styles/images/static/responsibility/responsibility/icon06.svg" alt="" /></div>
+<p>產品配方採取95%以上生物可分解原料</p>
+</li>
+<li>
+<div class="icon"><img src="/static/styles/images/static/responsibility/responsibility/icon07.svg" alt="" /></div>
+<p>環保包材</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="goal-item">
+<div class="goal-item-inner container extra-large">
+<div class="pic wow fadeInUp"><img src="/static/styles/images/static/responsibility/responsibility/goal04.jpg" alt="" /></div>
+<div class="desc wow fadeInUp" data-wow-delay=".25s">
+<div class="desc-head">
+<h3 class="title">專業經營、創造員工幸福感</h3>
+</div>
+<div class="desc-content editor-style">
+<p>員工是公司最重要的資產，花仙子一直積極推動友善職場，建立健康、正向、快樂幸福氛圍之工作環境。持續改善薪酬制度，建立績效導向之人才激勵環境，多面向關懷與福利，公開透明溝通管道，就是希望能建立「專業經營、創造員工幸福感」的公司。展望未來，花仙子將持續追求穩健的成長與獲利目標，以創新營運模式為產業帶來新氣象，而隨著企業規模的茁壯，花仙子承諾將肩負起更多的社會責任，持續追求更高的標準，我們勉勵自己，也期許花仙子能成為清潔、芳香產業的標竿企業。</p>
+</div>
+<div class="desc-subjects">
+<ul class="noneStyle">
+<li>
+<div class="icon"><img src="/static/styles/images/static/responsibility/responsibility/icon08.svg" alt="" /></div>
+<p>幸福公司</p>
+</li>
+<li>
+<div class="icon"><img src="/static/styles/images/static/responsibility/responsibility/icon09.svg" alt="" /></div>
+<p>擔負更多企業社會責任</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+                    <div class="responsibility-section download">
+                        <div class="section-inner container extra-large">
+                            <div class="download-head styled-head">
+                                <p class="sub">與社會共同成長，達到企業永續經營的目標</p>
+                                <h2 class="title">歷年企業社會責任報告書下載</h2>
+                            </div>
+                            <div class="download-content">
+                                                                    <ul class="noneStyle">
+                                        
+                                            <li>
+                                                <a href="/files/花仙子2022_永續報告書FA.pdf" target="_blank" >
+                                                    <div class="pic">
+                                                        <img src="/files/2.JPG" alt="" />
+                                                    </div>
+                                                    <p class="caption">2022永續報告書</p>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/files/花仙子2023永續報告書FA.pdf" target="_blank" >
+                                                    <div class="pic">
+                                                        <img src="/files/2023永續報告封面1.JPG" alt="" />
+                                                    </div>
+                                                    <p class="caption">2023永續報告書</p>
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a href="/files/2024年永續報告書(中)花仙子1730.pdf.pdf" target="_blank" >
+                                                    <div class="pic">
+                                                        <img src="/files/2024永續報告書封面.JPG" alt="" />
+                                                    </div>
+                                                    <p class="caption">2024永續報告書</p>
+                                                </a>
+                                            </li>
+                                        
+
+                                    </ul>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!-- footer ======================================================================================= -->
+            <!-- footer ======================================================================================= -->
+            <footer id="footer">
+    <div class="social-buttons wow fadeIn " data-wow-delay=".5s">
+        <ul class="links noneStyle" style="display: block">
+            <li><a href="https://www.facebook.com/farcenttools/" target="_blank"><i class="icon-facebook"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCRbGFS99tSfqpjG0k_FMwsQ/videos" target="_blank"><i class="icon-youtube-play"></i></a></li>
+                        <li><a href="https://www.instagram.com/farcent_lpf/" target="_blank"><i class="icon-instagram"></i></a></li>
+        </ul>
+        <div class="toggle">
+            <div class="btn-style">
+                <div class="dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="text">close</div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-main wow fadeIn">
+        <div class="footer-main-top">
+            <div class="container">
+                <div class="info">
+                    <div class="info-logo">
+                        <img src="/static/styles/images/static/logo-white.svg" alt="" />
+                    </div>
+                    <ul class="info-tel noneStyle">
+<li class="t-large"><a href="tel:+886-2-2592-2860">+886-2-2592-2860</a></li>
+<li style="text-align: left;">公司地址：台北市大同區承德路三段230號13F</li>
+<li style="text-align: left;">公司傳真：<a href="tel:+886-2-2594-4800">+886-2-2594-4800</a></li>
+<li style="text-align: left;">客服電話：<a href="tel:0800-021-771">0800-021-771</a> (花仙子)</li>
+<li style="text-align: left;">客服電話：<a href="tel:0800-021-771">0800-865-999</a> (好神拖)</li>
+<!--<li style="text-align: left;">客服電話：<a href="tel:0800-013-482">0800-013-482</a> (康寧)</li>--></ul>
+
+                    <ul class="info-social noneStyle">
+                        <li><a href="https://www.facebook.com/farcenttools/" target="_blank"><i class="icon-facebook"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCRbGFS99tSfqpjG0k_FMwsQ/videos" target="_blank"><i class="icon-youtube-play"></i></a></li>
+                                                <li><a href="https://www.instagram.com/farcent_lpf/" target="_blank"><i class="icon-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="links">
+
+                                        <dl class="noneStyle">
+                        <dt>最新消息</dt>
+                        <dd><a href="https://www.farcent.com.tw/news">全部訊息</a></dd>
+                                                                                    <dd><a href="https://www.farcent.com.tw/news/4C3YN75wJatH5iS2">活動訊息</a></dd>
+                                                            <dd><a href="https://www.farcent.com.tw/news/66Byn8dwj8THfrM1">產品情報</a></dd>
+                                                            <dd><a href="https://www.farcent.com.tw/news/314Zt77YI5qQ2syE">Product News</a></dd>
+                                                                        </dl>
+                                        <dl class="noneStyle">
+                        <dt>關於花仙子</dt>
+                                                                                    <dd><a href="/about01">使命與核心價值</a></dd>
+                                                            <dd><a href="/about02">經營團隊</a></dd>
+                                                            <dd><a href="/about03">集團歷史</a></dd>
+                                                            <dd><a href="/about04">全球經營版圖</a></dd>
+                                                                        </dl>
+                    <dl class="noneStyle">
+                        <dt>品牌產品</dt>
+                                                                                    <dd><a href="/products-list">所有品牌</a></dd>
+                                                            <dd><a href="/products-list/932YnE1wYFYW9gzF">香氛去味</a></dd>
+                                                            <dd><a href="/products-list/B92yP40WU8Zx8iH3">個人護理</a></dd>
+                                                            <dd><a href="/products-list/645YN4DwybYm3JmB">除濕防霉</a></dd>
+                                                            <dd><a href="/products-list/258yn4FWY7yn3Uud">居家清潔洗劑</a></dd>
+                                                            <dd><a href="/products-list/2D3Yn3DWYeYnbRhd">天然清潔洗劑</a></dd>
+                                                            <dd><a href="/products-list/becyN81wy2YSFxs8">居家打掃工具</a></dd>
+                                                            <dd><a href="/products-list/9caYn60wY4YM7Zp2">防蚊驅蟲</a></dd>
+                                                                        </dl>
+                    <dl class="noneStyle">
+                        <dt>ESG永續發展</dt>
+                                                                                    <dd><a href="/stakeholders">利害關係人互動與經營</a></dd>
+                                                            <dd><a href="/responsibility01">ESG永續發展</a></dd>
+                                                                        </dl>
+                                        <dl class="noneStyle">
+                        <dt>投資人關係</dt>
+                                                                                    <dd><a href="/investors01">重大訊息</a></dd>
+                                                            <dd><a href="/investors02">公司治理</a></dd>
+                                                            <dd><a href="/investors03">財務資訊</a></dd>
+                                                            <dd><a href="/investors05">股東服務</a></dd>
+                                                                        </dl>
+                                        <dl class="noneStyle">
+                        <dt>聯絡我們</dt>
+                                                                                    <dd><a href="/contact02">常見問題</a></dd>
+                                                            <dd><a href="/contact03">代工服務</a></dd>
+                                                            <dd><a href="/contact04">海外代理</a></dd>
+                                                            <dd><a href="/contact05">人才招募</a></dd>
+                                                                        </dl>
+                </div>
+            </div>
+        </div>
+        <div class="footer-main-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <p>Copyright © Farcent Enterprise Co., Ltd All Right Reserved. Designed by <a href="https://minmax.tw/" target="_blank">MINMAX</a></p>
+                    <ul class="noneStyle">
+                        <li><a href="/sitemap">網站地圖</a></li>
+                        <li><a href="/privacy">隱私權政策</a></li>
+                        <li><a href="/terms">網站使用條款</a></li>
+                    </ul>
+                </div>
+                <div class="scroll">
+                    <button type="button" class="btn-style btn-scroll"><i class="icon-chevron-up"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        </div>
+        <script src="/static/zh-Hant/scripts/default/jquery.min.js"></script>
+        <script src="/static/zh-Hant/scripts/default/jquery.easing.1.3.js"></script>
+        <script src="/static/zh-Hant/scripts/default/env.js"></script>
+
+        <script src="/static/zh-Hant/scripts/plugins/bootstrap.js"></script>
+        <script src="/static/zh-Hant/scripts/plugins/bootstrap-select.js"></script>
+        <script src="/static/zh-Hant/scripts/plugins/actual.js"></script>
+        <script src="/static/zh-Hant/scripts/plugins/hammer.js"></script>
+        <script src="/static/zh-Hant/scripts/plugins/jquery.hammer.js"></script>
+        <script src="/static/zh-Hant/scripts/plugins/mousewheel.js"></script>
+        <script src="/static/zh-Hant/scripts/plugins/smoothScroll.js"></script>
+        <script src="/static/zh-Hant/scripts/plugins/localScroll.js"></script>
+        <script src="/static/zh-Hant/scripts/plugins/wow.js"></script>
+        <script src="/static/zh-Hant/scripts/plugins/imgLiquid.js"></script>
+        <script src="/static/zh-Hant/scripts/plugins/slick.js"></script>
+        <script src="/static/zh-Hant/scripts/plugins/validate.js"></script>
+        <script src="/static/zh-Hant/scripts/plugins/form.js"></script>
+
+        <script src="/static/zh-Hant/scripts/default/ui.js"></script>
+
+    
+    </body>
+</html>

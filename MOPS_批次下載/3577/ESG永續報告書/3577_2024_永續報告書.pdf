@@ -1,0 +1,1727 @@
+<!DOCTYPE html>
+<html lang="zh-tw" class="no-js" xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/layout.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<title>永續報告書</title>
+    <!-- InstanceEndEditable -->
+    <!--include:eZHeadMeta-->
+
+<!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+<!-- for Google -->
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="author" content="" />
+<meta name="copyright" content="Copyrights © [ICP DAS] All Rights Reserved" />
+<meta name="application-name" content="" />
+
+<!-- for Facebook -->
+<meta property="og:title" content="永續報告書" />
+<meta property="og:type" content="article" />
+<meta property="og:image" content="" />
+<meta property="og:url" content="https://www.icpdas.com/tw/csr/index.php?kind=71" />
+<meta property="og:description" content="" />
+
+<!-- for Twitter -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="永續報告書" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="" />
+
+<!-- 關閉Skype工具列 -->
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+
+<!-- 網站圖示 favicon.ico -->
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+
+    <!-- InstanceBeginEditable name="head_init" -->
+        <!-- 這裡放各別頁面個別額外的基本設定 -->
+    <!-- InstanceEndEditable -->
+    <!--inlcude:eZHeadPageRes-->
+
+    <link href="/js/bootstrap-3.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/js/bootstrap-3.2.0-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <link href="/css/bootstrap-col10.min.css" rel="stylesheet">
+
+    <link href="/css/base.min.css" rel="stylesheet">
+    <link href="/css/base_rwd.min.css" rel="stylesheet">
+
+    <link href="/en/_css/style.css" rel="stylesheet">
+
+
+            
+    	<link href="/en/_css/style_rwd.css" rel="stylesheet">
+    
+
+    <link href="/css/hovercss/Hover-master/css/hover.css" rel="stylesheet" />
+    <link href="/css/font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet"  />
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:400,900" rel="stylesheet">
+    
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	<script src="https://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+
+    <script type="text/javascript" src="/js/jquery.easing.1.3.min.js"></script>
+
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript">
+        // Change JQueryUI plugin names to fix name collision with Bootstrap.
+        $.widget.bridge('uitooltip', $.ui.tooltip);
+        $.widget.bridge('uibutton', $.ui.button);
+    </script>
+    <script type="text/javascript" src="/js/bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+    <link href="/js/slick/slick.css" rel="stylesheet" />
+    <script type="text/javascript" src="/js/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/js/slick/slick-theme.css"/>
+
+
+    <script src="/js/jquery-match-height-master/jquery.matchHeight.js" type="text/javascript"></script>    
+
+
+    <link rel="stylesheet" type="text/css" href="/js/Easy-Responsive-Tabs-to-Accordion-master/css/easy-responsive-tabs.css " />
+    <script src="/js/Easy-Responsive-Tabs-to-Accordion-master/js/easyResponsiveTabs.js"></script>
+
+    <link rel="stylesheet" href="/js/Basic-Responsive-Table-Plugin-For-jQuery-Basic-Table/basictable.css">
+    <script src="/js/Basic-Responsive-Table-Plugin-For-jQuery-Basic-Table/jquery.basictable.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.js"></script>
+	<script type="text/javascript" src="/js/bootstrap-datetimepicker-master/build/js/bootstrap-datetimepicker.min.js"></script>
+	<link href="/js/bootstrap-datetimepicker-master/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+ 
+<!-- fancybox -->
+<link href="/js/fancyapps-fancyBox-v2.1.5-0/source/jquery.fancybox.css" rel="stylesheet">
+<script type="text/javascript" src="/js/fancyapps-fancyBox-v2.1.5-0/source/jquery.fancybox.js"></script>
+
+<!-- datepicker -->
+<link href="/module/bootstrap_datepicker/css/datepicker.css" rel="stylesheet" />
+<script type="text/javascript" src="/module/bootstrap_datepicker/js/bootstrap-datepicker-tw.js"></script>
+
+<!-- fast word highlight -->
+<script type="text/javascript" src="/js/Fast-Word-Highlighting/jquery.highlight.js"></script>
+
+    <script type="text/javascript">
+    
+        $(document).ready(function () {
+
+            //check ie
+            if ($.browser.msie && $.browser.version <= "8.0") {
+                $('body').addClass('is_oldie');
+                // please upgrade your browser
+            }
+            if (Modernizr.touch) {
+                $("body").addClass("is_touch");
+            }
+
+            //for editor
+            $(".editor table.scroll").wrap("<div class='table-responsive'></div>");
+
+
+
+            $(".editor iframe[src*='youtube']").each(function (e) {
+                if (!$(this).hasClass("embed-responsive-item")) {
+                    var w = ($(this).attr("width")) ? $(this).attr("width") : "",
+                        u = (w && w.search(/px|%/) == -1) ? "px" : "";
+                    $(this)
+                        .removeAttr("height")
+                        .removeAttr("width")
+                        .addClass("embed-responsive-item")
+                        .attr("allowfullscreen", "1")
+                        .wrap("<div class='youtube_wrap' style='max-width:" + w + u + ";margin:auto;'><div class='embed-responsive embed-responsive-16by9' style='width:100%;'></div></div>");
+                }
+            });
+
+            $(window).scroll(function (e) {
+                var win_h = $(window).scrollTop();
+                var win_w = $(window).width();
+
+				// 視窗捲動超過.header時，#floating 增加.fixed
+                var page_w = $(".main_content > .container").width();
+                var floating_offset_top = $(".header").height() + $(".main_top").height();
+                if (win_h > floating_offset_top) {
+                    $("#floating").addClass("fixed");
+                } else {
+                    $("#floating").removeClass("fixed");
+                }
+                (win_h > 10) ? $("body").addClass("is_scroll") : $("body").removeClass("is_scroll");
+				//console.log('win_h='+win_h);
+            });
+
+            $('.btn-floating').click(function (e) {
+                e.preventDefault(); 
+                $('#floating').toggleClass("open");
+            });
+
+            $('.item').matchHeight({
+                property: 'height',
+            });
+
+            if ($( ".header .navbar-collapse").hasClass( "in" ) ) {
+                $(this).parent().find('.navbar').css("position","relative");
+            }
+
+            $('[data-toggle="tooltip"]').tooltip()
+
+
+
+			var NavProBox = $('.header .NavProBox'); 
+            var Nav2 = $('.header .nav2');
+            $(window).scroll(function (e) {
+                var win_h = $(window).scrollTop();
+                var win_w = $(window).width();
+				// 視窗捲動超過.header時，#floating 增加.fixed
+                var page_w = $(".main_content > .container").width();
+                var floating_offset_top = $(".header").height() + $(".main_top").height();
+                if (win_h > floating_offset_top) {
+                    $("#floating").addClass("fixed");
+                } else {
+                    $("#floating").removeClass("fixed");
+                }
+                (win_h > 10) ? $("body").addClass("is_scroll") : $("body").removeClass("is_scroll");
+				//console.log('win_h2='+win_h);
+                if($("body").hasClass("product show")){                
+					//
+                }else if($("body").hasClass("member profile")){
+                    var Nav2HasClass = Nav2.hasClass("navbar-fixed-top");
+                    if(win_h >= $(".navbar").height()){     
+                        if(!Nav2HasClass){
+                            Nav2.addClass("navbar-fixed-top");
+                        }                    
+                    }else{
+                        if(Nav2HasClass){
+                            Nav2.removeClass("navbar-fixed-top");
+                        }                 
+                    }
+                }
+            });
+
+
+
+
+            //側選單的開合按鈕
+            $('.side-toggle').click(function (e) {
+                e.preventDefault();
+                $('.side').toggleClass("menu-open");
+            });
+            //gotop Animate
+			//$(".gotop").on('click', 'a[href^="#"]', function () {
+			//	$("html,body").animate({ scrollTop: 0 }, 600);
+            //    return false;
+			//});
+
+            $(".gotop a").click(function (e) {
+                e.preventDefault();
+				$("html,body").animate({ scrollTop: 0 }, 600);
+			});
+
+            ResizeMethod();
+
+            /*日期選擇器*/
+            $(".datepicker").datepicker().on('changeDate', function (e) {
+                $(this).datepicker('hide');
+            });
+            $('.datepicker').css("cursor", "pointer");
+             
+             
+             //header
+             var fixedBox = $(".header .navbar");
+            var wrapbody = $("body");
+            if (fixedBox.length > 0) {
+                //pushFixedHeight(fixedBox);
+                $(window).resize(function () {
+                    //pushFixedHeight(fixedBox);
+                });
+
+
+                //if($(window).width() < 768){
+                    //if (fixedBox.hasClass("mobile-animate")) {
+                        //偵測滑動方向
+                        var lastScrollTop = 0;
+                        $(window).scroll(function (event) {
+                            var st = $(this).scrollTop();
+                            if (st > lastScrollTop) {
+                                //fixedBox.addClass("down");
+                                wrapbody.addClass("nav-down");
+                            } else {
+                                //fixedBox.removeClass("down");
+                                wrapbody.removeClass("nav-down");
+                            }
+                            lastScrollTop = st;
+
+                            if (st == 0) {
+                                //fixedBox.removeClass("down");
+                                wrapbody.removeClass("nav-down");
+                            }
+
+                            if (st + $(window).height() == $(document).height()) {
+                                //fixedBox.removeClass("down");
+                                wrapbody.removeClass("nav-down");
+                            }
+
+                        });
+                    //}
+                //}
+                
+
+            }
+
+        });
+
+
+        $(window).resize(function(){
+            ResizeMethod();
+
+        });
+
+
+
+        function ResizeMethod() {
+            if($(window).width() > 991 && $(".side.side1").css("display") != "none"){
+                $(".content").css("padding-left", "30px");
+            }
+            else{
+                $(".content").css("padding-left", "15px");
+            }    
+        }
+
+
+
+
+
+    </script>
+    <!-- InstanceBeginEditable name="head" -->
+        <!-- 這裡放各別頁面額外的JS或CSS -->
+        <script type="text/javascript">
+        /*頁面個別的script*/
+        	$(document).ready(function(){
+        		
+        	});
+        </script>
+    <!-- InstanceEndEditable -->
+    <!--include:eZHeadFinal-->
+    <script src="/js/selectivizr-1.0.2/selectivizr-min.js"></script>
+    <script src="/js/html5shiv-3.7.2.min.js"></script>
+    <script src="/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>    <!-- InstanceParam name="body_class" type="text" value="about" -->
+    <!-- InstanceParam name="side1_class" type="text" value="side side1 col-md-2" -->
+    <!-- InstanceParam name="content_class" type="text" value="content col-md-10" -->
+    <!-- InstanceParam name="side2_class" type="text" value="side side2 hidden" -->
+    
+
+</head>
+
+<body id="PageBody" class="IR">
+    <div class="page_wrapper">
+    	<div class="header">
+        	<div class="wrp-deco top"></div>
+            <div class="header_top">
+    			<!-- InstanceBeginEditable name="header_top_holder" -->
+                    <!-- 這裡放主導覽列上面額外的內容 -->
+                <!-- InstanceEndEditable -->
+            </div><!-- /.header_top -->
+            
+            <!-- ↓導覽列↓ -->
+            <div class="navbar navbar-fixed-top" role="navigation">
+			    <!--include:nav-->
+
+<link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="//use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<script type="text/javascript">
+    $(document).ready(function () {
+        //yamm3樣式一 liclass: minwidth 讓主選單li 變為static
+        $('.navbar-nav li.minwidth').parents(".dropdown_submenu").addClass("pos_static");
+        $('.hover_r_sider').children('ul').addClass("dropdown-menu sub-menu");
+        $('ul.dropdown-menu ul.dropdown-menu').parent().addClass('dropdown_submenu');
+        if ($(window).width() > 750) {
+            ho_visable();
+        } else {
+            removerhover();
+        }
+        $(window).resize(function () {
+            if ($(window).width() > 750) {
+                ho_visable();
+            } else {
+                removerhover();
+            }
+        });
+        $(".menuBtn").on("click", function () {
+            $("html").toggleClass("menuBoxOpen");
+        })
+    });
+    //滑動模式
+    function ho_visable() {
+        $('.hover_r_sider').children('ul').addClass("dropdown-menu sub-menu");
+        $('.dropdown_submenu .dropdown-toggle').removeAttr("data-toggle");
+        $(".dropdown_submenu").hover(
+            function () {
+                $(this).addClass("open");
+            },
+            function () {
+                $(this).removeClass("open");
+            });
+    }
+    //手機版移除滑動
+    function removerhover() {
+        $(".dropdown_submenu").off("hover");
+        $('.dropdown_submenu .dropdown-toggle').attr("data-toggle", "dropdown"); //dropdown
+        $('.hover_r_sider').children('ul').removeClass("dropdown-menu sub-menu");
+    }
+    //點選模式 取消a連結轉為按鈕
+    function trigger() {
+        $('.hover_r_sider').children('ul').addClass("dropdown-menu sub-menu");
+        $(".dropdown-menu > li.hover_r_sider > a.trigger").attr("data-toggle", "");
+        $('a.trigger').parent('li.hover_r_sider').find('ul').hide();
+    }
+    //恢復a連結 全部顯示
+    function triggeroff() {
+        $('.hover_r_sider').children('ul').removeClass("dropdown-menu sub-menu");
+        $('li.hover_r_sider a.trigger').parent('li.hover_r_sider').find('ul').show();
+        $(".dropdown-menu > li.hover_r_sider > a.trigger").attr("data-toggle", "");
+    }
+</script>
+<style>
+    .header .cookie {
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        background-color: rgb(245, 245, 245);
+        color: rgba(0, 0, 0, 0.7);
+        font-size: .75rem;
+    }
+
+    .header .cookie .txt {
+        text-align: justify;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        text-align: left;
+        line-height: 1.5;
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        text-align: justify;
+        text-justify: inter-ideograph;
+    }
+
+    .header .cookie .txt a.closeBox {
+        background-color: #eeeeee;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        color: rgba(0, 0, 0, 0.7);
+        cursor: pointer;
+        display: inline-block;
+        font-size: 0.875rem;
+        font-weight: bold;
+        outline: 0;
+        padding-bottom: 0.75rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 0.75rem;
+        text-align: center;
+        text-transform: uppercase;
+        vertical-align: middle;
+        white-space: nowrap;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        text-decoration: none;
+        float: right;
+    }
+
+    .header .cookie .txt a.closeBox:hover {
+        background-color: #dadada;
+        border-color: transparent;
+        color: rgba(0, 0, 0, 0.7);
+    }
+
+    @media(max-width: 767px) {
+        .header .cookie .txt {
+            width: 100%;
+            padding-right: 5%;
+        }
+        .header .cookie .txt .col-md-2 {
+            position: static;
+        }
+        .header .cookie .txt a.closeBox {
+            position: absolute;
+            right: 0;
+            top: 0.5rem;
+            background: none;
+            color: rgba(0, 0, 0, 0.7);
+        }
+        .header .cookie .txt a.closeBox:hover {
+            background: none;
+        }
+    }
+</style>
+<script>
+    function getCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for(var i = 0; i <ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }    
+    var hideCookie=false;
+    hideCookie=false;
+    if(getCookie("policy_ok")==""){
+        document.cookie="policy_ok=false";
+    }
+    $(function () {
+        $(".cookie a.closeBox").on("click", function (e) {
+            e.preventDefault();            
+            document.cookie="policy_ok=true";
+            setCookieView();
+            $("body").css("padding-bottom","0px");
+        })
+
+        var cookieH = $(".cookie").outerHeight();
+        $("body").css("padding-bottom",cookieH);
+        $(window).resize(function(e){
+            var cookieH_rwd = $(".cookie").outerHeight();
+            $("body").css("padding-bottom",cookieH_rwd);
+        }).trigger("resize");
+        
+        $(window).resize(function(e){
+            var w=$(window).width();
+            var h=$(".navbar").outerHeight();
+            var h2=h+$(".NavProBox").outerHeight();
+            if(w>768){
+                $(".NavProBox").css("top", h);
+                $(".header").css("padding-top",h2);
+            }else{
+                $(".NavProBox").css("top", h);
+                $(".header").css("padding-top",h2);
+            }
+            $(".main_content").css("padding-top",0);
+        }).trigger("resize");
+
+        setCookieView();       
+    })
+
+    function setCookieView(){
+        if(getCookie("policy_ok")!='true' && !hideCookie){
+            $(".cookie").removeClass("hidden");
+        }else{
+            $(".cookie").addClass("hidden");
+        }  
+        $(window).trigger("resize");
+    }
+</script>
+<div class="cookie">
+    <div class="txt">
+        <div class="col-md-10">
+            <span style="font-size:12px">為了向您提供更好更滿意的服務，本網站使用了第三方配置文件Cookie。 請<a href="/tw/about/index.php?kind=60" style="color:#AAA;"><span style="color:#0000ff;">點擊此處</span></a>以了解這些Cookie以及如何更改設置。關閉此窗口或繼續瀏覽本網站，即表示您同意我們使用這些Cookie。</span>
+            </div>
+            
+        <div class="col-md-2">
+            <a href="#" class="closeBox">
+                <span class="hidden-xs">關閉</span>
+                <i class="fas fa-times visible-xs"></i>
+            </a>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+$(document).on('click', '.yamm .dropdown-menu', function(e) {
+   e.stopPropagation()
+})
+    $(document).ready(function (e) {
+        //yamm3樣式一 liclass: minwidth 讓主選單li 變為static  
+        $('.navbar-nav li.minwidth').parents(".yamm-fw").addClass("pos_static");
+        $('.hover_r_sider').children('ul').addClass("dropdown-menu sub-menu");
+        $('ul.dropdown-menu ul.dropdown-menu').parent().addClass('yamm-fw');
+        //滑動模式
+        
+        $(function () {
+            ($(window).width() > 750) ? ho_visable() : removerhover();
+            $(window).resize(function (e) { ($(window).width() > 750) ? ho_visable() : removerhover(); });
+        });
+        //點選模式
+        
+
+        $(".m-menu .btn-area > li a.btn-search").click(function(e){
+            e.preventDefault();
+            $(".header .navbar .nav-search-box").slideToggle();
+        });
+
+
+        //手機下拉選單預設收起
+        var dropA = $(".header .navbar .pronav > ul > li > ul > li > a.icon-more");
+        var dropA_SUB = $(".header .navbar .pronav > ul > li > ul > li > ul");
+        if($(window).width() <= 767){
+            dropA.addClass("collapsed");
+            dropA.attr("aria-expanded","false");
+            dropA_SUB.removeClass("in");
+            dropA_SUB.attr("aria-expanded","false");
+        }
+        $(window).resize(function(){
+            if($(window).width() <= 767){
+                dropA.addClass("collapsed");
+                dropA.attr("aria-expanded","false");
+                dropA_SUB.removeClass("in");
+                dropA_SUB.attr("aria-expanded","false");
+            }else{
+                dropA.removeClass("collapsed");
+                dropA.attr("aria-expanded","true");
+                dropA_SUB.addClass("in");
+                dropA_SUB.attr("aria-expanded","true");
+            }
+        });
+
+
+    });
+
+    //滑動模式 
+    function ho_visable() {
+        $('.hover_r_sider').children('ul').addClass("dropdown-menu sub-menu");
+        $('.yamm-fw .dropdown-toggle').removeAttr("data-toggle");
+        $(".yamm-fw").hover(
+            function () { $(this).addClass("open"); },
+            function () { $(this).removeClass("open"); }
+        );
+    }
+    //手機版移除滑動
+    function removerhover() {
+        $(".yamm-fw").off("hover");
+        $('.yamm-fw .dropdown-toggle').attr("data-toggle", "dropdown");
+        $('.hover_r_sider').children('ul').removeClass("dropdown-menu sub-menu");
+    }
+    //點選模式 取消a連結轉為按鈕
+    function trigger() {
+        $('.hover_r_sider').children('ul').addClass("dropdown-menu sub-menu");
+        $(".dropdown-menu > li.hover_r_sider > a.trigger").attr("data-toggle", "dropdown");
+        $('a.trigger').parent('li.hover_r_sider').find('ul').hide();
+    }
+    //恢復a連結 全部顯示
+    function triggeroff() {
+        $('.hover_r_sider').children('ul').removeClass("dropdown-menu sub-menu");
+        $('li.hover_r_sider a.trigger').parent('li.hover_r_sider').find('ul').show();
+        $(".dropdown-menu > li.hover_r_sider > a.trigger").attr("data-toggle", "");
+    }
+
+
+
+
+</script>
+
+
+<div class="container">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="/index_tw.php">
+        
+        <img src="/tw/_images/all/logo.png" alt="">
+        <span class="hidden"><b>I</b>ndustrial <b>C</b>omputer <br><b>P</b>roduct <b>D</b>ata <br><b>A</b>cquisition <b>S</b>ystem</span>
+        
+        </a><!-- 網站名稱 or LOGO -->
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="sr-only"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+        </button>
+        <div class="m-menu">
+            <ul class="list-inline btn-area">
+                <li><a href="#" class="btn-search ani-pop"></a></li>
+                <li><a href="/tw/member/login.php" class="btn-login ani-pop">會員登入</a></li>
+                <li class="hidden"><a href="/tw/cart/index.php" class="btn-cart ani-pop" data-toggle="tooltip" data-placement="bottom" title="購物車" id="m_Cart">cart <span class="cart-num">0</span></a></li>
+                <li><a href="/tw/inquiry/index.php" class="btn-investor ani-pop" data-toggle="tooltip" data-placement="bottom" title="詢價單" id="m_Inquiry">price<span class="inquiry-num">0</span></a></li>
+            </ul>       
+        </div>
+
+
+
+
+
+    </div><!-- /.navbar-header -->
+
+
+    <div class="nav-search-box top-link">
+
+
+
+<div class=" search-area">
+<style>
+	.ui-autocomplete-loading {
+		background: url('/tw/_images/ui-anim_basic_16x16.gif') 96% center no-repeat !important;
+	}
+
+    .google-search input#gsc-i-id1 {
+       /* background: none !important;*/
+    }
+
+    .ui-widget.ui-widget-content.ui-autocomplete {
+        z-index: 999;
+        max-width: 50% !important;
+    }
+
+    .ui-widget.ui-widget-content.ui-autocomplete li a {
+        font-size: 16px;
+    }
+
+    .ui-widget.ui-widget-content.ui-autocomplete li {
+        margin-bottom: 10px;
+        border-bottom: solid 1px #ccc;
+        margin: 0;
+        padding: 0;
+    }
+
+    .ui-widget.ui-widget-content.ui-autocomplete li:last-child {
+        border: none;
+    }
+
+    .ui-widget.ui-widget-content.ui-autocomplete li .ui-menu-item-wrapper {
+        padding: 10px;
+    }
+
+    @media (max-width: 767px){
+        .ui-widget.ui-widget-content.ui-autocomplete {
+            max-width: calc(100% - 30px) !important;
+            max-height: calc(100vh - 100px);
+            overflow: auto;
+        }
+    }
+
+</style>
+<script>
+$(function() {
+	jQuery("#keyword").autocomplete({
+		minLength: 3,
+		source: function(request, response) { 
+			jQuery.ajax({
+				url: "/tw/_include/search_json.php",
+				data: {
+					kw : request.term, is_home : 'false'
+				},
+				dataType: "json",
+				success: function(data) 	{
+					response(data);
+				}	
+			})
+	 	},
+		html: true,
+        select: function (event, ui) {            
+            if (ui.item.link != null){
+                window.location = ui.item.link;
+            } else {
+                window.location = "/tw/product/show.php?num=" + ui.item.pro_id;
+            }
+        }
+	}).autocomplete("instance")._renderItem = function (ul, item) {
+    return $("<li>")
+        .append("<div><a href='" + ((item.link!=null)?item.link:"/tw/product/show.php?num=" +  + item.pro_id) + "'>Module: " + item.value + "<br />Info: " + item.label + "</a></div>")
+        .appendTo(ul);
+	};
+});
+
+function nav_search(){													 				   
+	if ($('#keyword').val()==""){
+		alert("請輸入關鍵字!");
+		return false;
+	}
+	return true;
+}
+
+$(function() {
+	jQuery("#t").autocomplete({
+		minLength: 2,
+		source: function(request, response) { 
+			jQuery.ajax({
+				url: "/tw/_include/search_tags_json.php",
+				data: {
+					kw : request.term
+				},
+				dataType: "json",
+				success: function(data) 	{
+					response(data);
+				}	
+			})
+	 	},
+		html: true,
+        select: function (event, ui) {
+            if (ui.item.value != null){
+                window.location = "/tw/search/result.php?t=" + ui.item.value;
+            }
+        }
+	}).autocomplete("instance")._renderItem = function (ul, item) {
+    return $("<li>")
+        .append("<div><a href='" + ("/tw/search/result.php?t=" + item.value) + "'>" + item.value + "</a></div>")
+        .appendTo(ul);
+	};
+});
+
+function tag_search(){													 				   
+	if ($('#t').val()==""){
+		alert("請輸入標籤!");
+		return false;
+	}
+	return true;
+}
+</script>
+<form id="navSearch" name="navSearch" method="get" onsubmit="return nav_search()" action="/tw/product/search_result.php">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="keyword" name="keyword" placeholder="型號,關鍵字" value="">
+                            <span class="input-group-btn">	
+							<a href="javascript:document.getElementById('navSearch').submit()" class="btn"><svg width="13" height="13" viewBox="0 0 13 13"><path d="m4.8495 7.8226c0.82666 0 1.5262-0.29146 2.0985-0.87438 0.57232-0.58292 0.86378-1.2877 0.87438-2.1144 0.010599-0.82666-0.28086-1.5262-0.87438-2.0985-0.59352-0.57232-1.293-0.86378-2.0985-0.87438-0.8055-0.010599-1.5103 0.28086-2.1144 0.87438-0.60414 0.59352-0.8956 1.293-0.87438 2.0985 0.021197 0.8055 0.31266 1.5103 0.87438 2.1144 0.56172 0.60414 1.2665 0.8956 2.1144 0.87438zm4.4695 0.2115 3.681 3.6819-1.259 1.284-3.6817-3.7 0.0019784-0.69479-0.090043-0.098846c-0.87973 0.76087-1.92 1.1413-3.1207 1.1413-1.3553 0-2.5025-0.46363-3.4417-1.3909s-1.4088-2.0686-1.4088-3.4239c0-1.3553 0.4696-2.4966 1.4088-3.4239 0.9392-0.92727 2.0864-1.3969 3.4417-1.4088 1.3553-0.011889 2.4906 0.45771 3.406 1.4088 0.9154 0.95107 1.379 2.0924 1.3909 3.4239 0 1.2126-0.38043 2.2588-1.1413 3.1385l0.098834 0.090049z"></path></svg></a>
+							<input id="navSubmit" name="navSubmit" type="submit" style="display:none" value="submit"  />
+                            </span>
+                        </div>
+</form>
+                    </div>
+                    <div class=" search-area tag-btn">
+<form id="tagSearch" name="tagSearch" method="get" onsubmit="return tag_search()" action="/tw/search/result.php">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="t" name="t" placeholder="解決方案,標籤">
+                            <input id="tagSubmit" name="tagSubmit" type="submit" style="display:none" value=""  />
+                        </div>
+</form>
+                    </div>  
+
+                    <div class="google-search" style="display:none">
+
+                        <script async src="https://cse.google.com/cse.js?cx=012907769102836802302:kqurwdyprp3"></script>
+                        <div class="gcse-searchbox-only"></div>
+
+<!--                       
+<script>
+(function() {
+var cx = '011630233729440387847:ex8dxzxlgo8';
+var gcse = document.createElement('script');
+gcse.type = 'text/javascript';
+gcse.async = true;
+gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(gcse, s);
+
+
+})();
+
+
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>      -->                   
+</div>
+
+</div>
+
+
+    <!-- /*-- yamm3下拉選單套件 可參考 http://geedmo.github.io/yamm3/ --*/ -->
+    <link type="text/css" href="/css/yamm3/yamm/yamm.css" rel="stylesheet" />
+
+    <div class="collapse navbar-collapse yamm">
+        <div class="top-link">
+            <ul class="list-inline">
+
+
+                <li>
+                    
+             
+                </li>
+
+                <li>
+                    <ul class="list-inline btn-area">
+                        <li><a data-toggle="tooltip" data-placement="bottom" title="會員登入" href="/tw/member/login.php" class="btn-login ani-pop ">login</a></li>
+                        <li class="hidden"><a data-toggle="tooltip" data-placement="bottom" title="購物車" href="/tw/cart/index.php" class="btn-cart ani-pop" id="Cart">cart <span class="cart-num">0</span></a></li>
+                        <li><a data-toggle="tooltip" data-placement="bottom" title="詢價單" href="/tw/inquiry/index.php" class="btn-investor ani-pop" id="Inquiry">price<span class="inquiry-num">0</span></a></li>
+                        <li class="lang-btn-area">
+                            <div class="btn-group lang">
+                                <button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                                     繁體中文<span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+									<li><a href="http://oldweb.icpdas.com/index.php" target="_blank">舊官網</a></li>
+                                    <li><a href="/?Lang=US">English</a></li>
+                                    <li><a href="/?Lang=CN">简体中文</a></li>
+                                </ul>
+                            </div><!-- /.lang -->                        
+                        </li>
+                    </ul>                 
+                </li>
+            </ul>
+    
+   
+        </div>        
+        <ul class="nav navbar-nav">
+            <li class="dropdown yamm-fw pronav">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="/tw/product/index.php">產品介紹</a>
+                <ul class="dropdown-menu" role="menu">
+                    <li class="grid-demo pro-menu">
+						<ul class="nav">
+
+
+
+							<li>
+								<a data-toggle="collapse" href="#submenu_635" aria-expanded="true" aria-controls="submenu_635" class="icon-more"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>
+																<a href="/tw/product/p02.php?root=635">PC 介面卡</a>
+								                                <ul  class="collapse nav in" id="submenu_635" >
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=635&kind=955">資料擷取卡</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=635&kind=957">工業通訊卡</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=635&kind=959">運動控制卡</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=635&kind=961">Watchdog 監控卡</a>
+																		
+									</li>
+		                                </ul>
+                            </li>
+									<li>
+								<a data-toggle="collapse" href="#submenu_641" aria-expanded="true" aria-controls="submenu_641" class="icon-more"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>
+																<a href="/tw/product/p02.php?root=641">可程式自動化控制器</a>
+								                                <ul  class="collapse nav in" id="submenu_641" >
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=641&kind=1810">AI Box 控制器</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=641&kind=1000">Windows 控制器</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=641&kind=1002">WinCE 控制器</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=641&kind=1004">Linux 控制器</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=641&kind=1006">MiniOS7 控制器</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=641&kind=1008">ROM-DOS 控制器</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=641&kind=1010">嵌入式電腦</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=641&kind=1012">Win-GRAF 控制器 (Soft PLC)</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=641&kind=1014">InduSoft 控制器</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=641&kind=1016">ISaGRAF 控制器</a>
+																		
+									</li>
+		                                </ul>
+                            </li>
+									<li>
+								<a data-toggle="collapse" href="#submenu_935" aria-expanded="true" aria-controls="submenu_935" class="icon-more"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>
+																<a href="/tw/product/p02.php?root=935">顯示控制</a>
+								                                <ul  class="collapse nav in" id="submenu_935" >
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=935&kind=1088">工業用面板 PC</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=935&kind=1090">ViewPAC 控制器</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=935&kind=1091">觸控人機介面</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=935&kind=1094">InduSoft 控制器</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=935&kind=1096">顯示器</a>
+																		
+									</li>
+		                                </ul>
+                            </li>
+		</ul><ul class="nav">							<li>
+								<a data-toggle="collapse" href="#submenu_938" aria-expanded="true" aria-controls="submenu_938" class="icon-more"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>
+																<a href="/tw/product/p02.php?root=938">IIoT</a>
+								                                <ul  class="collapse nav in" id="submenu_938" >
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=938&kind=1120">軟體</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=938&kind=1122">控制器/服務器</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=938&kind=1124">I/O 與感測器</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=938&kind=1125">BA/HA</a>
+																		
+									</li>
+		                                </ul>
+                            </li>
+									<li>
+								<a data-toggle="collapse" href="#submenu_939" aria-expanded="true" aria-controls="submenu_939" class="icon-more"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>
+																<a href="/tw/product/p02.php?root=939">機械自動化</a>
+								                                <ul  class="collapse nav in" id="submenu_939" >
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=939&kind=1178">PAC控制</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=939&kind=1179">PC控制與遠端運動控制</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=939&kind=1182">Motionnet控制</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=939&kind=1184">EtherCAT 控制</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=939&kind=1186">CANopen 控制</a>
+																		
+									</li>
+		                                </ul>
+                            </li>
+									<li>
+								<a data-toggle="collapse" href="#submenu_941" aria-expanded="true" aria-controls="submenu_941" class="icon-more"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>
+																<a href="/tw/product/p02.php?root=941">遠端資料擷取</a>
+								                                <ul  class="collapse nav in" id="submenu_941" >
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=941&kind=1228">RS-485 I/O 模組</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=941&kind=1844">乙太網路 I/O 模組 (資安型)</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=941&kind=1230">乙太網路 I/O 模組 (一般型)</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=941&kind=1232">PAC I/O 擴充模組</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=941&kind=1234">現場總線 I/O 模組</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=941&kind=1236">USB I/O 模組</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=941&kind=1238">FRnet I/O 模組</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=941&kind=1240">無線 I/O 模組</a>
+																		
+									</li>
+		                                </ul>
+                            </li>
+		</ul><ul class="nav">							<li>
+								<a data-toggle="collapse" href="#submenu_943" aria-expanded="true" aria-controls="submenu_943" class="icon-more"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>
+																<a href="/tw/product/p02.php?root=943">工業通訊</a>
+								                                <ul  class="collapse nav in" id="submenu_943" >
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=943&kind=1312">串列通訊</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=943&kind=1314">乙太網路</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=943&kind=1316">現場總線</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=943&kind=1318">USB 通訊</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=943&kind=1320">FRnet 通訊</a>
+																		
+									</li>
+		                                </ul>
+                            </li>
+									<li>
+								<a data-toggle="collapse" href="#submenu_945" aria-expanded="true" aria-controls="submenu_945" class="icon-more"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>
+																<a href="/tw/product/p02.php?root=945">無線通訊</a>
+								                                <ul  class="collapse nav in" id="submenu_945" >
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=945&kind=1378">3G/4G/5G 通訊</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=945&kind=1380">ZigBee 通訊</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=945&kind=1382">Wi-Fi 通訊</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=945&kind=1743">iWSN 通訊</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=945&kind=1802">RF 通訊</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=945&kind=1880">LoRa 通訊</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=945&kind=1384">其他無線產品</a>
+																		
+									</li>
+		                                </ul>
+                            </li>
+									<li>
+								<a data-toggle="collapse" href="#submenu_947" aria-expanded="true" aria-controls="submenu_947" class="icon-more"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>
+																<a href="/tw/product/p02.php?root=947">能源管理</a>
+								                                <ul  class="collapse nav in" id="submenu_947" >
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=947&kind=1432">電錶集中器</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=947&kind=1434">智能電錶</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=947&kind=1436">可攜式電力監控箱</a>
+																		
+									</li>
+		                                </ul>
+                            </li>
+		</ul><ul class="nav">							<li>
+								<a data-toggle="collapse" href="#submenu_949" aria-expanded="true" aria-controls="submenu_949" class="icon-more"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>
+																<a href="/tw/product/p02.php?root=949">信號調理</a>
+								                                <ul  class="collapse nav in" id="submenu_949" >
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=949&kind=1458">電源隔離模組</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=949&kind=1460">信號調理模組</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=949&kind=1462">電壓衰減器和比流器</a>
+																		
+									</li>
+		                                </ul>
+                            </li>
+									<li>
+								<a data-toggle="collapse" href="#submenu_951" aria-expanded="true" aria-controls="submenu_951" class="icon-more"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>
+																<a href="/tw/product/p02.php?root=951">軟體</a>
+								                                <ul  class="collapse nav in" id="submenu_951" >
+		                                    <li>									
+									<a href="../../tw/product/guide+Software+AVEVA__Edge+AVEVA__Edge">AVEVA Edge</a>									
+									</li>
+		                                    <li>									
+									<a href="../../tw/product/guide+Software+InduSoft+InduSoft">InduSoft</a>									
+									</li>
+		                                    <li>									
+									<a href="https://www.icpdas.com/tw/product/guide+IIoT+Software+IoTstar">IoTstar</a>									
+									</li>
+		                                    <li>									
+									<a href="../../tw/product/guide+Software+Development__Tools+Win-GRAF">Win-GRAF (Soft PLC)</a>									
+									</li>
+		                                    <li>									
+									<a href="../../tw/product/guide+Software+eLogger+eLogger">eLogger</a>									
+									</li>
+		                                    <li>									
+									<a href="../../tw/product/guide+Software+EZ__Data__Logger+EZ__Data__Logger">EZ Data Logger</a>									
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=951&kind=1483">開發套件</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=951&kind=1485">應用程式</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=951&kind=1487">工具軟體與驅動程式</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=951&kind=1489">App</a>
+																		
+									</li>
+		                                </ul>
+                            </li>
+									<li>
+								<a data-toggle="collapse" href="#submenu_953" aria-expanded="true" aria-controls="submenu_953" class="icon-more"><i class="fa fa-plus" aria-hidden="true"></i><i class="fa fa-minus" aria-hidden="true"></i></a>
+																<a href="/tw/product/p02.php?root=953">零配件</a>
+								                                <ul  class="collapse nav in" id="submenu_953" >
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=953&kind=1573">電源供應器</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=953&kind=1576">天線</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=953&kind=1578">線與接頭</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=953&kind=1580">配線端子板</a>
+																		
+									</li>
+		                                    <li>									
+																		<a href="/tw/product/p02.php?root=953&kind=1582">其他零配件</a>
+																		
+									</li>
+		                                </ul>
+                            </li>
+		</ul><ul class="nav">
+
+
+                           
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+			<li class="dropdown yamm-fw pronav">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="/tw/solution/index.php">解決方案</a>
+                <ul class="dropdown-menu" role="menu">
+                    <li class="grid-demo pro-menu">
+						<ul class="nav">
+
+
+
+							<li><a href="/tw/solution/leadpage02.php?root=170">IIoT工業物聯網</a></li>
+									<li><a href="/tw/solution/leadpage02.php?root=171">智慧工廠</a></li>
+									<li><a href="/tw/solution/leadpage02.php?root=184">智慧製造</a></li>
+									<li><a href="/tw/solution/leadpage02.php?root=185">能源管理</a></li>
+									<li><a href="/tw/solution/leadpage02.php?root=186">樓宇自動化</a></li>
+		</ul><ul class="nav">							<li><a href="/tw/solution/leadpage02.php?root=187">智慧養殖農漁業</a></li>
+									<li><a href="/tw/solution/leadpage02.php?root=188">智慧交通</a></li>
+									<li><a href="/tw/solution/leadpage02.php?root=189">自然資源</a></li>
+									<li><a href="/tw/solution/leadpage02.php?root=245">石化與鋼鐵廠</a></li>
+									<li><a href="/tw/solution/leadpage02.php?root=247">校園自動化</a></li>
+		</ul><ul class="nav">
+
+
+                           
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown yamm-fw autoW"><a class="dropdown-toggle" data-toggle="dropdown" href="/tw/news/index.php">新聞&活動</a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="/tw/news/p02.php">公司&產品新聞</a></li>
+                    <li><a href="/tw/news/p03.php">最新活動</a></li>
+                    <li><a href="/tw/news/p04.php">歷史活動</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown yamm-fw autoW"><a class="dropdown-toggle" data-toggle="dropdown" href="#">技術支援</a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="/tw/faq/index.php">產品 FAQ</a></li>
+                    <li><a href="/tw/class/index.php">教育訓練</a></li>
+                    <li><a href="/tw/download/index.php">檔案中心</a></li>
+                    <li><a href="https://icpdas-tc.blog/" target="_blank">ICP DAS 泓格誌</a></li>
+                    <!--<li><a href="/tw/forum/index.php">ICP DAS Forum</a></li>-->
+                    <!--<li><a href="/tw/quarterly/index.php">Technical Communication</a></li>-->
+                </ul>
+            </li>
+            <li class="dropdown yamm-fw autoW"><a class="dropdown-toggle" data-toggle="dropdown" href="/tw/about/index.php">關於泓格</a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="/tw/about/index.php?kind=30">關於泓格</a></li>
+		                    <li><a href="../../tw/about/history.php" target='_self'>歷史與獎項</a></li>
+		                    <li><a href="/tw/about/index.php?kind=50" target='_self'>組織團隊</a></li>
+		                    <li><a href="/tw/about/index.php?kind=48" target='_self'>合作夥伴</a></li>
+		                    <li><a href="/tw/about/index.php?kind=60" target='_self'>隱私權政策</a></li>
+		                    <li><a href="../../tw/investor_relations/index.php" target='_self'>投資人關係</a></li>
+		                    <li><a href="/tw/about/index.php?kind=51" target='_self'>公司認證</a></li>
+		                    <li><a href="/tw/about/index.php?kind=57" target='_self'>品牌故事</a></li>
+		                </ul>
+            </li>
+            <li class="dropdown yamm-fw autoW"><a class="dropdown-toggle" data-toggle="dropdown" href="/tw/contact/index.php">聯絡我們</a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="/tw/contact/index.php">聯絡我們</a></li>    
+                    <li><a href="/tw/contact/global_directory.php">全球據點</a></li>
+                    <li><a href="/tw/contact/distributor.php">經銷商</a></li>
+                    <li><a href="/tw/contact/unsubscribe.php">電子報</a></li>
+                </ul>
+            </li>
+
+        </ul><!-- /.navbar-nav -->
+
+
+
+
+
+
+
+    </div><!-- /.nav-collapse -->
+</div><!-- /.container -->
+            </div><!-- /.navbar -->
+            <!-- ↑導覽列↑ -->
+
+			<!-- ↓Banner↓ -->
+            <div class="banner" id="banner">
+            	<!-- InstanceBeginEditable name="banner_holder" -->
+               		<!-- 這裡放BANNER -->
+					<!--include:banner-->
+<!-- bxslider -->
+<script type="text/javascript" src="/js/bxslider-4-master/jquery.bxslider.min.js"></script>
+<link href="/js/bxslider-4-master/jquery.bxslider.min.css" rel="stylesheet">
+<script>
+    $(document).ready(function () {
+        $('.banner .bxslider').bxSlider({
+            mode: 'fade',  //切換的模式：'horizontal'(左右切換), 'vertical'(上下切換), 'fade'(淡入淡出)
+            speed: 2000, //切換的速度
+            auto: true,  //是否自動播放
+            pause: 8000,  //每張圖停留的時間
+            controls: true,
+            pager: true
+        });
+    });
+</script>
+<style>
+    /* 設定桌機banner高度 */
+    .banner .bxslider li {
+        height: 300px;
+    }
+</style>
+<div class="container">
+    <div class="wrp_frame border-LT"></div>
+    <div class="wrp_frame border-CT"></div>
+    <div class="wrp_frame border-RT"></div>
+    <div class="wrp_frame border-LM"></div>
+    <div class="wrp_frame border-RM"></div>
+    <div class="wrp_frame border-LB"></div>
+    <div class="wrp_frame border-CB"></div>
+    <div class="wrp_frame border-RB"></div>
+    <ul class="bxslider">
+        
+    </ul>
+</div>    			<!-- InstanceEndEditable -->
+            </div><!-- /.banner -->
+            <!-- ↑Banner↑ -->
+
+            <div class="header_ex">
+            	<!-- InstanceBeginEditable name="header_ex_holder" -->
+                	<!-- 這裡放header額外的內容 -->
+    			<!-- InstanceEndEditable -->
+            </div><!-- /.header_ex -->
+            <div class="wrp-deco bottom"></div>
+        </div><!-- /.header -->
+        
+        <div class="main">
+            <div class="main_top">
+              	<!-- InstanceBeginEditable name="main_top_holder" -->
+                	<!-- 這裡放內容次選單、標題...等 -->
+    			<!-- InstanceEndEditable -->
+            </div><!-- /.main_top -->
+              
+            <div class="main_content">
+                              
+            <div class="main_content">
+                <!-- InstanceBeginEditable name="breadcrumb_holder" --><div class="breadcrumb-area">
+                    <div class="container">
+                        <ol class="breadcrumb">
+                            <li><a href="/index_tw.php"><i class="fa fa-home" aria-hidden="true"></i>首頁</a></li>
+                            <li><a href="/tw/investor_relations/index.php?kind=26">投資人關係</a></li>
+                            <li><a href="/tw/csr/index.php?kind=39">企業社會責任</a></li>
+							                            <li class="active">永續報告書</li>   
+                        </ol><!-- /.breadcrumb -->
+                    </div>
+
+                </div><!-- InstanceEndEditable -->
+                 
+                <div class="container">
+                    <div class="row">
+                        <div id="side1" class="side side1 col-md-3">
+                            <div class="wrp-deco top"></div>
+                            <!-- InstanceBeginEditable name="side1_holder" -->
+                                <!-- 這裡放side1的內容 -->
+								
+
+
+<div class="side-menu wrapfix">
+    <button type="button" class="btn side-toggle collapsed" data-toggle="collapse" data-target="#sidecollapse" aria-expanded="false" aria-controls="sidecollapse">投資人關係
+    <span class="toggle-icon">
+        <span class="glyphicon glyphicon-chevron-down"></span>
+        <span class="glyphicon glyphicon-chevron-up"></span>
+    </span>
+
+    </button>     
+    <div class="collapse" id="sidecollapse">
+        <div class="sub-menu">
+            <div class="panel-group side-panel panel-area" id="side_accordion" role="tablist" aria-multiselectable="true">
+               
+			   
+			   
+
+								<div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="side_heading0">
+                        <h4 class="panel-title">                            
+							<a  role="button" class="hvr-shutter-out-horizontal" href="/tw/investor_relations/index.php?kind=27"  target="_self">
+                                投資人關係                            </a>
+                        </h4>
+                    </div>
+                </div>
+				 
+				<div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="side_heading1">
+                        <h4 class="panel-title">
+                            <a  role="button" class="hvr-shutter-out-horizontal" data-toggle="collapse" data-parent="#side_accordion" href="#side_collapse1" aria-expanded="true" aria-controls="collapse1">
+							股務資訊
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="side_collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="side_heading1">
+					                        <div class="panel-body">							
+                            <ul class="nav">
+								<li><a href="/tw/investor_relations/stock.php?kind=43"  target="_self">最新消息</a></li><li><a href="/tw/investor_relations/stock.php?kind=44"  target="_self">代理機構</a></li><li><a href="/tw/investor_relations/stock.php?kind=45"  target="_self">相關表格</a></li><li><a href="dividend_history.php"  target="_self">股利分派</a></li><li><a href="law_briefing.php"  target="_self">法說會</a></li><li><a href="/tw/investor_relations/stock.php?kind=48"  target="_self">投資關係人聯絡窗口</a></li><li><a href="shareholders_meeting.php"  target="_self">股東會</a></li><li><a href="/tw/investor_relations/stock.php?kind=50"  target="_self">重大訊息</a></li><li><a href="/tw/investor_relations/stock.php?kind=51"  target="_self">股價</a></li>                            </ul>
+                        </div>
+					                    </div>
+                </div>
+				
+
+
+                                <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="side_heading2">
+                        <h4 class="panel-title">
+                            <a  role="button" class="hvr-shutter-out-horizontal" data-toggle="collapse" data-parent="#side_accordion" href="#side_collapse2" aria-expanded="true" aria-controls="collapse1">
+							財務資訊
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="side_collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="side_heading2">
+                        <div class="panel-body">
+                            <ul class="nav">
+                                <!--<li><a href="/tw/investor_relations/financial_report.php">Financial report</a></li>
+                                <li><a href="/tw/investor_relations/monthly_turnover.php">Monthly turnover report</a></li>-->
+								<li><a href="financial_report.php" target="_self">財務報表</a></li><li><a href="monthly_turnover.php" target="_self">月營業額報告</a></li>                            </ul>
+                        </div>
+                    </div>
+                </div>
+				
+
+
+				                <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="side_heading3">
+                        <h4 class="panel-title">
+                            <a  role="button" class="hvr-shutter-out-horizontal" data-toggle="collapse" data-parent="#side_accordion" href="#side_collapse3" aria-expanded="true" aria-controls="collapse1">
+							公司治理
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="side_collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="side_heading3">
+                        <div class="panel-body">
+                            <ul class="nav">
+								<li><a href="/tw/investor_relations/corporate.php?kind=38" target="_self">公司組織和職掌</a></li><li><a href="financial_regulations.php" target="_self">主要規章辦法</a></li><li><a href="/tw/investor_relations/corporate.php?kind=36" target="_self">內部稽核</a></li><li><a href="/tw/investor_relations/corporate.php?kind=37" target="_self">功能性委員會-薪資報酬</a></li><li><a href="/tw/investor_relations/corporate.php?kind=53" target="_self">功能性委員會-審計</a></li><li><a href="/tw/investor_relations/corporate.php?kind=54" target="_self">功能性委員會-永續發展</a></li><li><a href="/tw/investor_relations/corporate.php?kind=39" target="_self">誠信經營</a></li><li><a href="/tw/investor_relations/corporate.php?kind=40" target="_self">不正當的商業行為舉報</a></li><li><a href="/tw/investor_relations/corporate.php?kind=41" target="_self">防範內線交易之管理</a></li><li><a href="/tw/investor_relations/corporate.php?kind=48" target="_self">董事會及功能性委員會績效評估</a></li>                            </ul>
+                        </div>
+                    </div>
+                </div>
+				
+
+
+                
+
+				                <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="side_heading4">
+                        <h4 class="panel-title">
+                            <a  role="button" class="hvr-shutter-out-horizontal" data-toggle="collapse" data-parent="#side_accordion" href="#side_collapse4" aria-expanded="true" aria-controls="collapse1">
+							董事會
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="side_collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="side_heading4">
+                        <div class="panel-body">
+                            <ul class="nav">                                                                
+								<li><a href="/tw/investor_relations/board_introduction.php?kind=32" target="_self">董事會組織</a></li><li><a href="/tw/investor_relations/board_introduction.php?kind=33" target="_self">董事會成員簡歷</a></li><li><a href="/tw/investor_relations/board_introduction.php?kind=34" target="_self">董事候選人提名</a></li><li><a href="major_resolution.php" target="_self">重大決議</a></li>								
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				
+
+								<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="side_heading5">
+						<h4 class="panel-title">
+							<a  style="background: #ee7500;" role="button" class="hvr-shutter-out-horizontal" data-toggle="collapse" data-parent="#side_accordion" href="#side_collapse5" aria-expanded="true" aria-controls="collapse1">
+							企業社會責任
+							</a>
+						</h4>
+					</div>					
+					<div id="side_collapse5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="side_heading5">
+						<div class="panel-body">
+							<ul class="nav">                                                                
+								<li><a href="/tw/csr/index.php?kind=50">可持續發展的環境</a><ul class="nav"><li><a href="/tw/csr/index.php?kind=52">綠色產品</a></li><li><a href="/tw/csr/index.php?kind=53">環境政策</a></li></ul></li><li><a href="/tw/csr/index.php?kind=54">安心職場</a><ul class="nav"><li><a href="/tw/csr/index.php?kind=55">人權制度</a></li><li><a href="/tw/csr/index.php?kind=56">工作場所健康與安全</a></li><li><a href="/tw/csr/index.php?kind=57">人才培養</a></li><li><a href="/tw/csr/index.php?kind=58">福利措施</a></li><li><a href="/tw/csr/index.php?kind=59">退休制度</a></li><li><a href="/tw/csr/index.php?kind=75">薪資政策</a></li></ul></li><li><a href="/tw/csr/index.php?kind=60">社會參與</a></li><li><a href="/tw/csr/index.php?kind=71" style="background-color: #eee; color: #2a6496;">永續報告書</a></li>								
+							</ul>                            
+                        </div>
+					 </div>
+                </div>
+				
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="side_heading1">
+                        <h4 class="panel-title">
+                            <a role="button" class="hvr-shutter-out-horizontal" href="/tw/investor_relations/stakeholder.php">
+                                利害關係人
+                            </a>
+                        </h4>
+                    </div>
+
+                </div>
+
+            </div>   
+
+
+
+
+        </div>
+    </div>
+</div>                             <!-- InstanceEndEditable -->
+                            <div class="wrp-deco bottom"></div>                    
+                        </div><!-- /.side1 -->
+                        
+                        <div id="content" class="content col-md-9">
+                        	<!-- InstanceBeginEditable name="content_holder" -->
+                            	<!-- 這裡放content -->
+                            
+                                <h2 class="st">永續報告書</h2>
+                                <div class="editor">
+									<div>
+<table border="0" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td><a href="http://www.icpdas.com/web/investor_relationship/ESG REPORT/ESG-2024.pdf" target="_blank"><img alt="download_icon" src="/upload/corporate/download_icon.png" style="height: 35px; width: 35px;" /></a><strong>&nbsp; &nbsp;<span style="color:#666666;"><span style="font-size:20px;">2024&nbsp;永續報告書 （114/8/5董事會決議通過）</span></span></strong></td>
+		</tr>
+	</tbody>
+</table>
+<br />
+&nbsp;</div>
+                                </div>            
+                            
+
+                                
+    						<!-- InstanceEndEditable -->
+                        </div><!-- /.content -->
+      
+                        <div id="side2" class="side side2 hidden">
+                            <div class="wrp-deco top"></div>
+                            <!-- InstanceBeginEditable name="side2_holder" -->
+                            	<!-- 這裡放side2的內容 -->
+    						<!-- InstanceEndEditable -->
+                            <div class="wrp-deco bottom"></div>
+                        </div><!-- /.side2 -->
+                    </div><!-- /.row -->
+                    <div id="floating">
+                        <!--include:floating-->
+
+
+
+                    </div><!-- /#floating -->
+                    <div class="clearfix"><!--計算.main的背景高度用--></div>
+                </div><!-- /.container -->
+            </div><!-- /.main_content -->
+            </div><!-- /.main_content -->
+
+            <div class="main_ex">
+    			<!-- InstanceBeginEditable name="main_ex_holder" -->
+                    <!-- 這裡放額外的內容 -->
+                <!-- InstanceEndEditable -->
+            </div><!-- /.main_ex -->
+              
+    	</div><!-- /.main -->
+      
+    	<div class="footer">
+                
+            <div class="footer_top">
+                <!-- footer_top的固定內容 -->
+                <!-- InstanceBeginEditable name="footer_top_holder" -->
+                    <!--include:sitemap-->
+<div class="container">
+	<div class="gotop">
+	
+	<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M12 8l-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"></path>
+    <path d="M0 0h24v24H0z" fill="none"></path>
+	</svg>TOP</a>
+
+	</div>
+</div>
+
+<div class="sitemap">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-5 col-xs-12 text-center foo_logo_area">
+                <a href="/index_tw.php" class="foot-logo"><img src="/tw/_images/all/logo_foot.png" class="img-responsive center-block" alt=""></a>
+                <!--<h1><b>I</b>ndustrial <b>C</b>omputer <b>P</b>roduct <b>D</b>ata <b>A</b>cquisition <b>S</b>ystem</h1>
+				<h2>ICP DAS CO., LTD.</h2>
+                <ul class="nav com-info">
+                    <li><span>tel / </span>+886-3-5973366</li>
+                    <li><span>add / </span>No. 111, Guangfu North Road, Hukou Township, Hsinchu County, 303</li>
+                    <li><span>fax / </span>+886-3-5973733</li>
+                    <li><span>mail / </span>sales@icpdas.com</li>
+                </ul>-->
+            </div>
+            <div class="col-lg-4 col-md-7 col-xs-12 foo_link_sec">
+			<div class="link-area clearfix">
+                <ul class="list-inline sitemap-link">
+					<li><a href="/tw/product/index.php">產品介紹</a></li>
+					<li><a href="/tw/solution/index.php">解決方案</a></li>
+					<li><a href="/tw/news/index.php">新聞 & 活動</a></li>
+					<li><a href="/tw/class/index.php">技術支援</a></li>
+					<li><a href="/tw/about/index.php">關於泓格</a></li>
+					<li><a href="/tw/contact/index.php">聯絡我們</a></li>
+					<li><a href="/tw/sitemap/index.php">網站地圖</a></li>
+					<li><a href="/tw/investor_relations/stakeholder.php">利害關係人之連絡管道</a></li>
+					<li><a href="/tw/about/index.php?kind=44">隠私權政策</a></li>
+				</ul>
+</div>
+                <div class="epaper">
+					<script type="text/javascript">
+						function epaperOrder(){
+							$('#epaper_type').val('order');
+							epaperSubmit();
+						} 
+						function epaperCancel(){
+							$('#epaper_type').val('cancel');
+							epaperSubmit();
+						}
+						function epaperSubmit(){
+							if ($('#epaper_email').val()==""){
+								alert('E-mail is required field.');
+								$('#epaper_email').focus();							
+							}else if (!(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test($('#epaper_email').val()))){ 
+								alert('Incorrect e-mail format.');
+								$('#epaper_email').focus();							
+							}else{
+							
+								if ($('#epaper_type').val()=='order') {
+									$.ajax({
+										type: "POST",
+										url: "/epaper.php",
+										cache: false,
+										data: { email: $('#epaper_email').val(), type: $('#epaper_type').val(), nation:'TW' }
+									}).done(function( msg ) {  								
+										alert(msg);								
+									});
+								} else {
+									top.window.location="/tw/contact/unsubscribe.php?rtn=%2Ftw%2Fcsr%2Findex.php%3Fkind%3D71&email="+$('#epaper_email').val();
+								}
+														
+							}						
+						}
+					</script>
+                    <div class="input-group hidden">
+                        <input type="text" class="form-control" placeholder="Subscribe our enews" id="epaper_email" name="epaper_email">
+						<input id="epaper_type" name="epaper_type" type="hidden" value="order" />
+                        <!-- <a href="javascript:epaperOrder()" class="input-group-addon">SEND</a> -->
+						<a href="javascript:epaperCancel()" class="input-group-addon  btn-unsubscribe">取消</a>                        
+                    </div>
+                </div>
+
+			</div>
+			
+<div class="col-lg-3 col-md-5 col-xs-12 foo_social_sec">
+	<div class="foo_social_area">
+<div class="foo_tit">關注我們</div>
+<div class="social">
+		<ul class="list-inline">
+		<li><a href="https://www.facebook.com/ICPDAS/" target="_blank" class="ani-pop"><img src="/tw/_images/all/icon_social1.png" alt=""></a></li>
+		<li><a href="https://www.youtube.com/user/icpdas" target="_blank" class="ani-pop"><img src="/tw/_images/all/icon_social2.png" alt=""></a></li>
+		<li><a href="https://www.linkedin.com/company/icpdas-tw" target="_blank" class="ani-pop"><img src="/tw/_images/all/icon_social3.png" alt=""></a></li>
+		<li><a href="https://issuu.com/icpdas" target="_blank" class="ani-pop"><img src="/tw/_images/all/foo_icon_001.png" alt=""></a></li>
+		<li class="hidden"><a href="#" class="ani-pop"><img src="/tw/_images/all/icon_social4.png" alt=""></a></li>
+		<li class="hidden"><a href="#" class="ani-pop"><img src="/tw/_images/all/icon_social5.png" alt=""></a></li>
+		</ul>
+	</div> 
+</div>
+</div>
+        </div>
+    </div>
+
+</div>
+
+                    <!-- 這裡放footer上面額外的內容 -->
+                <!-- InstanceEndEditable -->
+            </div><!-- /.footer_top -->
+            <div class="footer_content">
+                <!--include:footer-->
+    <div class="copyright">
+        <div class="container">
+            <ul class="list-inline text-center">
+                <li>© 2020 ICP DAS CO., LTD. All Rights Reserved.  
+                                    </li>
+                
+            </ul>
+        </div>
+
+
+    </div><!-- /.copyright -->
+<!--  aos -->
+
+            </div><!-- /.footer_content -->
+
+    	</div><!-- /.footer -->
+    </div><!-- /.page_wrapper -->
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">The account has been used.</div>
+            <div class="modal-footer">
+                <div class="btn-box">
+                    <ul class="list-inline">													
+                        <li><a href="../member/login.php" class="btn-style ani-pop">會員登入</a></li>   
+                    </ul>  
+                </div>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+</body>
+</html>
