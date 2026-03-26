@@ -22,8 +22,9 @@ import datetime
 import logging
 import subprocess
 
-# 將專案根目錄加入路徑
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# 將專案根目錄加入路徑（src/ 的上一層）
+ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, ROOT_DIR)
 
 from src.utils.downloader import MOPSDownloader
 
@@ -369,7 +370,7 @@ def main():
     if getattr(sys, 'frozen', False):
         script_dir = os.path.dirname(sys.executable)
     else:
-        script_dir = os.path.dirname(os.path.abspath(__file__))
+        script_dir = ROOT_DIR
     excel_path = os.path.join(script_dir, EXCEL_FILENAME)
 
     # 讀取公司清單（含自訂儲存路徑）

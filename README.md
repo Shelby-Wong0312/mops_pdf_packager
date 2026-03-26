@@ -50,7 +50,7 @@
 
 ### Step 3：上傳 GitHub（選用）
 
-雙擊 `push_github.bat`，自動將下載結果 push 到 GitHub。
+雙擊 `上傳GitHub.bat`，自動將下載結果 push 到 GitHub。
 
 > 前提：這台電腦需要安裝 Git 並設定好 GitHub 認證（只需設定一次）。
 
@@ -60,11 +60,22 @@
 2. 在 `公司清單.xlsx` 的 B1 填入 Google Drive 路徑，例如 `G:\我的雲端硬碟\MOPS報告`
 3. 執行批次下載，檔案會直接存到 Google Drive 並自動同步
 
+## 同事如何取得報告
+
+### 方法一：GitHub 網頁下載
+直接上 GitHub 頁面 → 綠色 Code 按鈕 → Download ZIP → 解壓
+
+### 方法二：自動同步（推薦）
+1. 安裝 [Git](https://git-scm.com/)、[Python](https://www.python.org/downloads/)
+2. 建一個空資料夾，把 `同步更新.bat` 和 `src/sync_update.py` 丟進去
+3. 雙擊 `同步更新.bat` → 第一次會自動下載整個專案
+4. 之後每次雙擊就會拉取最新報告
+
 ## 輸出資料夾結構
 
 ```
 MOPS_批次下載/
-├── batch_download_20260326_153000.log    ← 本次執行的 log（舊 log 自動刪除）
+├── batch_download_20260326_153000.log    ← 本次 log（舊的自動刪除）
 ├── 2330_台積電/
 │   ├── 年報/
 │   ├── 財報/
@@ -79,33 +90,21 @@ MOPS_批次下載/
 
 ## 自動跳過已下載的公司
 
-系統會自動檢查每家公司的資料夾是否已有 PDF。有的話就跳過，不會重複下載。
+系統會檢查資料夾內是否已有 PDF，有的話自動跳過。
+想重新下載？刪除該公司的資料夾後重跑即可。
 
-如需重新下載某家公司，**刪除該公司的資料夾**後重跑即可。
+## 根目錄檔案說明
 
-## 專案檔案說明
-
-```
-mops_pdf_packager/
-├── 公司清單.xlsx           ← 你要編輯的 Excel（輸入公司 + 設定路徑）
-├── 批次下載.bat             ← 雙擊執行批次下載
-├── push_github.bat         ← 雙擊推送到 GitHub
-├── push_github.py          ← GitHub 推送邏輯
-├── batch_download.py       ← 批次下載主程式
-├── main.py                 ← CLI 模式（python main.py 2330）
-├── build_exe.bat           ← 打包成 exe 用
-├── requirements.txt        ← Python 依賴套件
-├── .gitignore              ← Git 忽略規則
-└── src/
-    ├── scrapers/
-    │   ├── ebook_scraper.py              ← 年報/財報/三書表
-    │   ├── briefing_scraper.py           ← 法說會簡報
-    │   ├── esg_scraper.py                ← ESG 永續報告書
-    │   ├── corporate_value_scraper.py    ← 提升企業價值計劃
-    │   └── mopsov_scraper.py             ← Selenium 備援
-    └── utils/
-        └── downloader.py                 ← 下載流程控制
-```
+| 檔案 | 用途 |
+|------|------|
+| `公司清單.xlsx` | 輸入要下載的公司和設定 |
+| `批次下載.bat` | 雙擊 → 開始下載報告 |
+| `上傳GitHub.bat` | 雙擊 → 推送到 GitHub |
+| `同步更新.bat` | 雙擊 → 從 GitHub 拉最新報告（給同事用） |
+| `打包EXE.bat` | 打包成 exe（開發用） |
+| `requirements.txt` | Python 依賴套件 |
+| `README.md` | 本說明文件 |
+| `src/` | 所有程式碼（不需要動） |
 
 ## 注意事項
 

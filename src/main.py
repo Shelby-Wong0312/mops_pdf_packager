@@ -2,8 +2,8 @@ import argparse
 import sys
 import os
 
-# 將專案根目錄加入路徑
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+# 將專案根目錄加入路徑（src/ 的上一層）
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src.utils.downloader import MOPSDownloader
 
 def main():

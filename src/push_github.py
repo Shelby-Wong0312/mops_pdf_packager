@@ -6,8 +6,9 @@ import datetime
 
 
 def main():
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    os.chdir(script_dir)
+    # 切到專案根目錄（src/ 的上一層）
+    root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    os.chdir(root_dir)
 
     print("=" * 60)
     print("  Push 到 GitHub")

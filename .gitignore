@@ -39,8 +39,10 @@ desktop.ini
 batch_progress.json
 MOPS_批次下載/**/*.log
 
-# 開發工具
+# 開發工具（不需要給同事）
 .claude/
+上傳GitHub.bat
+打包EXE.bat
 
 # Test/debug artifacts
 test_*/
