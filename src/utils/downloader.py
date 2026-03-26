@@ -10,7 +10,7 @@ from src.scrapers.esg_scraper import download_esg_report
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-ALL_REPORT_TYPES = ["年報", "財報", "關係企業三書表", "法說會簡報", "ESG永續報告書"]
+ALL_REPORT_TYPES = ["年報", "財報", "關係企業三書表", "法說會簡報", "ESG永續報告書", "提升企業價值計劃"]
 
 
 def get_recent_years(count=2):
@@ -309,13 +309,26 @@ class MOPSDownloader:
                 except Exception as e:
                     print(f"Warning: {year} 法說會簡報下載失敗。({e})")
 
+            # 5. 抓取提升企業價值計劃
+            if "提升企業價值計劃" in self.report_types:
+                try:
+                    from src.scrapers.corporate_value_scraper import download_corporate_value_pdf
+                    cv_dir = _dir("提升企業價值計劃")
+                    paths = download_corporate_value_pdf(self.ticker, year, cv_dir, download_all=True)
+                    if paths:
+                        for path in paths:
+                            if path not in seen_paths:
+                                seen_paths.add(path)
+                except Exception as e:
+                    print(f"Warning: {year} 提升企業價值計劃下載失敗。({e})")
+
             # 年度間延遲，避免 MOPS 封鎖
             if year_idx < len(years_to_search) - 1:
                 delay = random.uniform(8, 15)
                 print(f"年度間延遲，等待 {delay:.0f} 秒...")
                 time.sleep(delay)
 
-        # 5. 抓取永續報告書 (ESG Report) — 不受年度迴圈限制，一次搜尋全部
+        # 6. 抓取永續報告書 (ESG Report) — 不受年度迴圈限制，一次搜尋全部
         if "ESG永續報告書" in self.report_types:
             print(f"\n==> 正在搜尋 {self.ticker} 永續報告書 (ESG 數位平台)...")
             try:
