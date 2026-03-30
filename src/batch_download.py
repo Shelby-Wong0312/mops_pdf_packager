@@ -179,19 +179,28 @@ def read_company_list(excel_path):
     wb = openpyxl.load_workbook(excel_path, read_only=True)
     ws = wb.active
 
-    # 讀取第 1 列 B1: 自訂儲存路徑
+    # 自動偵測 Excel 格式：
+    #   新格式: Row 1 = 設定列（A1="儲存路徑（選填）"）, Row 2 = 標題, Row 3+ = 資料
+    #   舊格式: Row 1 = 標題（A1="股票代碼"）, Row 2+ = 資料
     custom_output_dir = None
     row1 = list(ws.iter_rows(min_row=1, max_row=1, values_only=True))
-    if row1 and len(row1[0]) > 1 and row1[0][1]:
-        path_val = str(row1[0][1]).strip()
-        if path_val:
-            custom_output_dir = path_val
+    a1_val = str(row1[0][0]).strip() if row1 and row1[0] and row1[0][0] else ""
+
+    if "儲存路徑" in a1_val:
+        # 新格式：有設定列
+        data_start_row = 3
+        if len(row1[0]) > 1 and row1[0][1]:
+            path_val = str(row1[0][1]).strip()
+            if path_val:
+                custom_output_dir = path_val
+    else:
+        # 舊格式：直接從第 2 列開始讀資料
+        data_start_row = 2
 
     companies = []
     current_roc_year = datetime.datetime.now().year - 1911
 
-    # 資料從第 3 列開始（第 1 列=設定, 第 2 列=標題）
-    for row_idx, row in enumerate(ws.iter_rows(min_row=3, values_only=True), start=3):
+    for row_idx, row in enumerate(ws.iter_rows(min_row=data_start_row, values_only=True), start=data_start_row):
         if not row or not row[0]:
             continue  # 跳過空列
 
