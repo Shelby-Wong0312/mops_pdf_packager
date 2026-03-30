@@ -32,12 +32,12 @@ desktop.ini
 *.spec
 *.exe
 
-# PDF — 只忽略根目錄的 PDF，MOPS_批次下載/ 裡的 PDF 要追蹤
-/*.pdf
+# PDF
+*.pdf
 
-# 批次下載 — 排除 log 和進度檔
+# 批次下載 — 整個輸出資料夾不上傳
+MOPS_批次下載/
 batch_progress.json
-MOPS_批次下載/**/*.log
 
 # 開發工具（不需要給同事）
 .claude/

@@ -35,6 +35,22 @@ from src.utils.downloader import MOPSDownloader
 
 EXCEL_FILENAME = "公司清單.xlsx"
 OUTPUT_DIR_NAME = "MOPS_批次下載"
+GOOGLE_DRIVE_FOLDER_NAMES = ["我的雲端硬碟", "My Drive"]
+
+
+def find_google_drive():
+    """
+    自動偵測 Google Drive 桌面版的路徑。
+    掃描所有磁碟機，找到 Google Drive 就回傳 MOPS報告 的完整路徑。
+    找不到回傳 None。
+    """
+    import string
+    for letter in string.ascii_uppercase:
+        for folder_name in GOOGLE_DRIVE_FOLDER_NAMES:
+            drive_path = f"{letter}:\\{folder_name}"
+            if os.path.isdir(drive_path):
+                return os.path.join(drive_path, OUTPUT_DIR_NAME)
+    return None
 
 
 # ============================================================
@@ -385,11 +401,15 @@ def main():
     # 讀取公司清單（含自訂儲存路徑）
     custom_output_dir, companies = read_company_list(excel_path)
 
-    # 決定輸出目錄
+    # 決定輸出目錄：Excel 指定 > Google Drive 自動偵測 > 本機預設
     if custom_output_dir:
         output_dir = custom_output_dir
     else:
-        output_dir = os.path.join(script_dir, OUTPUT_DIR_NAME)
+        gdrive_path = find_google_drive()
+        if gdrive_path:
+            output_dir = gdrive_path
+        else:
+            output_dir = os.path.join(script_dir, OUTPUT_DIR_NAME)
 
     # 設定 logging（會自動清除舊 log）
     logger = setup_logging(output_dir)
@@ -399,7 +419,11 @@ def main():
     logging.info("=" * 60)
 
     if custom_output_dir:
-        logging.info(f"自訂儲存路徑: {custom_output_dir}")
+        logging.info(f"儲存路徑（Excel 指定）: {output_dir}")
+    elif "我的雲端硬碟" in output_dir or "My Drive" in output_dir:
+        logging.info(f"儲存路徑（Google Drive）: {output_dir}")
+    else:
+        logging.info(f"儲存路徑（本機）: {output_dir}")
 
     if not companies:
         logging.error("公司清單為空，請確認 Excel 內容。")
@@ -469,9 +493,6 @@ def main():
         logging.info(f"失敗的公司: {', '.join(fail_list)}")
 
     logging.info(f"\n檔案存放於: {os.path.abspath(output_dir)}")
-
-    # 自動上傳到 GitHub
-    auto_push_to_github(script_dir)
 
 
 if __name__ == "__main__":
